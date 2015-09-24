@@ -6,7 +6,7 @@ categories: general
 ---
 Hi, I’m Leo, the Deep Learning Community Manager at NVIDIA NALA.  Take with a grain of salt my latest thoughts on DL and updates on events.  
 
-I'm just getting started on Jekyll.  I'm looking at [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. Here's [Jekyll’s GitHub repo][jekyll-gh] and [Jekyll’s dedicated Help repository][jekyll-help].  I followed Barry Clark's [guide][jekyllGitPages]
+I'm just getting started on Jekyll.  I'm looking at [Jekyll's docs][jekyll], [GitHub repo][jekyll-gh], and [GitHub docs][jekyll-help].  I followed Barry Clark's [guide][jekyllGitPages] for initial setup.
 
 [jekyll]:         http://jekyllrb.com
 [jekyll-gh]:      https://github.com/jekyll/jekyll
