@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm Leo, the Deep Learning Community Manager at NVIDIA North and Latin America.  I earned my Ph.D. from Yale University working on a method (compressive sensing) to exceed Nyquist sampling limits in MRI given prior information.  In my spare time, I enjoy SCUBA diving as a PADI advanced certified diver.  
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+The views expressed here are solely my own. 
