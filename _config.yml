@@ -2,9 +2,9 @@
 title: Deep Learning Community Manager NVIDIA NALA
 email: leot@nvidia.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.baseurl: "" # the subpath of your site, e.g. /blog/
+  Hi, I’m Leo, the Deep Learning Community Manager at NVIDIA NALA.
+  Take with a grain of salt some thoughts on DL and related events.
+  The views are solely my own and do not necessarily represent those of NVIDIA.
 url: "http://leotam.github.io" # the base hostname & protocol for your site
 twitter_username: LeoKTam
 github_username:  leotam
