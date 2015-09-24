@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
 	Hi, I’m Leo, the Deep Learning Community Manager at NVIDIA NALA.  
 	Take with a grain of salt my latest thoughts on DL and updates on events.  
 
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://leotam.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
