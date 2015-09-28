@@ -20,8 +20,8 @@ CS has an extremely robust theoretical foundation (arguably in contrast to DL) b
 
 The first point broadens the scope of the technique greatly.  If your signal is not sparse in it’s natural habit, that’s *fine*.  Just transform it to a domain where it is sparse, e.g. an NMR signal is sampled in the frequency (re: Fourier) domain and transformed to the wavelet space where biological images are sparse ([sparsity in MR images][LustigCS]).  The second point and the third point are related.  The signal should be sampled incoherently in the transform domain such that aliasing propagates as noise, which is then iteratively filtered using convex optimization, 
 
-![figure from my CS NLG paper]({{ site.url }}/assets/PSF4panelNLGpaperhires.png).
-Above, the signal in the wavelet domain (A) is transformed to the frequency domain (B).  When is it is sampled by the function in (C), the signal in the sparse domain has a noise-like background.  The background can be filtered to recover the signal.
+![figure from my CS NLG paper]({{ site.url }}/assets/PSF4panelNLGpaperhires.png)
+###### The signal in the wavelet domain (A) is transformed to the frequency domain (B).  When is it is sampled by the function in (C), the signal in the sparse domain has a noise-like background.  The background can be filtered to recover the signal.
 
 Exact recovery of the signal is given based on the signal sparsity and the sampling method (in [section “Optimizing the sampling method”][csNLGpaper] from my paper and citations in that section).  
 
