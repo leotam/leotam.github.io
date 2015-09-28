@@ -8,7 +8,7 @@ categories: general
 	“In a way, residency is training the neural network of physicians”
 		-- Stanford Assistant Professor of Ophthalmology Richard Chang
 
-Recent trends in computational image analysis include compressive sensing (a topic of my thesis) and extremely popular deep learning (DL) approaches. The discussion here targets the “unreasonable effectiveness” (to misquote [Andrej Karpathy][karpathyBlog]) of deep neural networks (DNN) in practical, physician-centric approach.  A brief introduction is given for compressive sensing (CS), parallels are drawn between CS and DL, and a commentary with figures on why CS has not seen more uptake in image analysis as opposed to DL where application has been rapid (e.g. [EyePACS + EyeNucs Retinopathy diagnosis][eyeNucs] using Ben Graham’s winning [DL algorithm][benKaggle]).  The discussion focusses on human perception of texture that in a way deep neural nets perceives in a familiar fashion to physicians.  
+Recent trends in computational image analysis include compressive sensing (a topic of my thesis) and extremely popular deep learning (DL) approaches. The discussion here targets the “unreasonable effectiveness” (to misquote [Andrej Karpathy][karpathyBlog]) of deep neural networks (DNN) in practical, physician-centric approach.  A brief introduction is given for compressive sensing (CS), parallels are drawn between CS and DL, and a commentary with figures on why CS has not seen more uptake in image analysis as opposed to DL where application has been rapid (e.g. [EyePACS + EyeNucs Retinopathy diagnosis][eyeNucs] using Ben Graham’s winning [DL algorithm][benKaggle]).  The discussion focusses on human perception of texture that in a way DNNs perceives in a familiar fashion to physicians.  
 
 Compressive sensing overview
 ------------
@@ -27,9 +27,9 @@ Exact recovery of the signal is given based on the signal sparsity and the sampl
 
 Unfortunately, though the CS signal reconstruction is convergent as measured by image error, many physicians find wavelet-based CS images as “artificial”.  Namely, they lack noise-like texture that physicians perceive as features ([an example in Fig. 3. here][LustigCS]).  Moreover, post-injection of noise to generate familiar image characteristics is inherently undesirable and “artificial”.
 
-Medical Features from a Convolutional Neural Network
+Medical Features from a CNN
 ------------
-Working with Prof. Chang on automatic diagnosis of diabetic retinopathy, he noted “In a way, residency is training the neural network of physicians.”  Our algorithm ([15th on Kaggle][kaggleLeaderboard]) used many of the techniques featured in other blog posts on the topic: common-sense data augmentation, training a deep CNN on 1024x1024 images, both-eyes analysis, etc. etc.  (Unfortunately, we didn't do model ensembling due to time constraints, widely known as beneficial).
+Working with Prof. Chang on automatic diagnosis of diabetic retinopathy, he noted “In a way, residency is training the neural network of physicians.”  Our algorithm ([15th on Kaggle][kaggleLeaderboard]) used many of the techniques featured in other blog posts on the topic: common-sense data augmentation, training a deep convolutional NN on 1024x1024 images, both-eyes analysis, etc. etc.  (Unfortunately, we didn't do model ensembling due to time constraints, widely known as beneficial).
 
 It’s possible to visualize the features extracted by the CNN and below is shown the features for a convolutional layer trained on 40000+ fundus images using AlexNet in DIGITS [github][digitsNV].
 
