@@ -9,28 +9,33 @@ categories: general
 
     -- Stanford Assistant Professor of Ophthalmology Richard Chang
 
-Recent trends in computational image analysis include compressive sensing (a topic of my thesis) and extremely popular deep learning (DL) approaches. The discussion here targets the “unreasonable effectiveness” (to misquote [Andrej Karpathy][karpathyBlog]) of deep neural networks (DNN) in practical, physician-centric approach.  A brief introduction is given for compressive sensing (CS), parallels are drawn between CS and DL, and a commentary with annotated figures presented on why CS has not seen more uptake in image analysis as opposed to DL where application has been rapid (e.g. [EyePACS + EyeNucs Retinopathy diagnosis][eyeNucs] using Ben Graham’s winning [DL algorithm][benKaggle]).  The argument hinges on human perception of texture that in a way DL perceives in a familiar fashion to physicians.  
+Recent trends in computational image analysis include compressive sensing (a topic of my thesis) and extremely popular deep learning (DL) approaches. The discussion here targets the “unreasonable effectiveness” (to misquote [Andrej Karpathy][karpathyBlog]) of deep neural networks (DNN) in practical, physician-centric approach.  A brief introduction is given for compressive sensing (CS), parallels are drawn between CS and DL, and a commentary with figures on why CS has not seen more uptake in image analysis as opposed to DL where application has been rapid (e.g. [EyePACS + EyeNucs Retinopathy diagnosis][eyeNucs] using Ben Graham’s winning [DL algorithm][benKaggle]).  The discussion focusses on human perception of texture that in a way DL perceives in a familiar fashion to physicians.  
 
 Compressive sensing overview
 ------------
-CS has an extremely robust theoretical foundation, arguably in contrast to DL approaches, built on foundational work from Emmanuel Candes [Scholar][emmScholar] (), Terence Tao (2006 Fields Medalist, [blog][terryBlog]), and David Donoho ([Stanford Statistics][donohoStats]).  In short, it’s a method to exceed Nyquist sampling limits given prior information on the sparsity of the signal.  There are three requirements for CS:
+CS has an extremely robust theoretical foundation (arguably in contrast to DL) built on foundational work from Emmanuel Candes ([Google Scholar][emmScholar]), Terence Tao (2006 Fields Medalist, [blog][terryBlog]), and David Donoho ([Stanford Statistics][donohoStats]).  In short, it’s a method to exceed Nyquist sampling limits given prior information on the sparsity of the signal.  There are three requirements for CS:
 
 1.	The signal is sparse in a transform domain.
-2.	The signal is sampled incoherently in the transform domain (more on this as it intuitively reappears in DL).
+2.	The signal is sampled incoherently in the transform domain.
 3.	The signal is reconstructed using convex optimization with sparsity promoting L1 norm reconstruction.
 
-The first point broadens the scope of the technique greatly.  If your signal is not sparse in it’s natural habit, that’s fine.  Just transform it to a domain where it is sparse, for example an NMR signal is sampled in the frequency (re: Fourier) domain and transformed to the Wavelet space where biological images are sparse ([sparsity in MR images][LustigCS]).  The second point and the third point are related.  The signal should be sampled incoherently in the transform domain such that aliasing propagates as noise, which is then iteratively filtered using convex optimization, (![figure from my CS NLG paper]({{ site.url }}/assets/PSF4panelNLGpaperhires.png)).  Exact recovery of the signal is given based on the signal sparsity and the sampling method ([in section “Optimizing the sampling method”][csNLGpaper] from my paper and citations in that section and appendix).  
+The first point broadens the scope of the technique greatly.  If your signal is not sparse in it’s natural habit, that’s *fine*.  Just transform it to a domain where it is sparse, e.g. an NMR signal is sampled in the frequency (re: Fourier) domain and transformed to the Wavelet space where biological images are sparse ([sparsity in MR images][LustigCS]).  The second point and the third point are related.  The signal should be sampled incoherently in the transform domain such that aliasing propagates as noise, which is then iteratively filtered using convex optimization, 
 
-Unfortunately, though the CS signal reconstruction is convergent as measured by image error, many physicians find CS images as “artificial”.  Namely, they lack noise-like texture that physicians perceive as features ([an example in Fig. 3. here][LustigCS]).  Moreover, post-injection of noise to generate familiar image characteristics is inherently undesirable and “artificial”.
+![figure from my CS NLG paper]({{ site.url }}/assets/PSF4panelNLGpaperhires.png).  
+
+Exact recovery of the signal is given based on the signal sparsity and the sampling method (in [section “Optimizing the sampling method”][csNLGpaper] from my paper and citations in that section).  
+
+Unfortunately, though the CS signal reconstruction is convergent as measured by image error, many physicians find Wavelet-based CS images as “artificial”.  Namely, they lack noise-like texture that physicians perceive as features ([an example in Fig. 3. here][LustigCS]).  Moreover, post-injection of noise to generate familiar image characteristics is inherently undesirable and “artificial”.
 
 Medical Features from a Convolutional Neural Network
 ------------
 Working with Prof. Chang on automatic diagnosis of diabetic retinopathy, he noted “In a way, residency is training the neural network of physicians.”  Our algorithm ([15th on Kaggle][kaggleLeaderboard]) used many of the techniques featured in other blog posts on the topic: common-sense data augmentation, training a deep CNN on 1024x1024 images, both-eyes analysis, etc. etc.  (Unfortunately, what we did not do was model ensembling due to time constraints).
 
-It’s possible to visualize the features extracted by the CNN and below is shown the features for a convolutional layer trained on 40000+ fundus images using AlexNet.
+It’s possible to visualize the features extracted by the CNN and below is shown the features for a convolutional layer trained on 40000+ fundus images using AlexNet in [DIGITS][digitsNV].
+
 ![retinal features from a convolutional layer]({{ site.url }}/assets/retTexturalDIGITS.png)
 
-What’s fascinating about reviewing the features in this layer is that they are primarily textural.  When ophthalmologists described features that indicated disease progression, the most difficult features to explain were the distributed textural features, usually corresponding to angiogenesis.  Textural features are foreign to human perception because we do not encounter them in everyday experience – we are not trained on these features.
+What’s fascinating reviewing the features in this layer is that they are primarily textural/vascular.  When ophthalmologists described features indicating disease progression, the most difficult features to explain were the distributed textural features, usually corresponding to angiogenesis.  Textural features are usually foreign to human perception because we do not encounter them in everyday experience – we are not trained on these features.
 
 Physicians view automated diagnosis tools cautiously but welcome methods to improve their accuracy and standard of care.  The right method will win out if it helps the physician.  The most promising medical applications in DL are for “pre-screen” identification and visualizations tools. Going back to Robert's quote, DL will help physicians train “smarter” by seeing more disease cases.
 
@@ -43,3 +48,4 @@ Physicians view automated diagnosis tools cautiously but welcome methods to impr
 [LustigCS]:       http://onlinelibrary.wiley.com/doi/10.1002/mrm.21391/abstract
 [csNLGpaper]:     http://onlinelibrary.wiley.com/doi/10.1002/mrm.25364/abstract
 [kaggleLeaderboard]: https://www.kaggle.com/c/diabetic-retinopathy-detection/leaderboard
+[digitsNV]:       https://github.com/NVIDIA/DIGITS
