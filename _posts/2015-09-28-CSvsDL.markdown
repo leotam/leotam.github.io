@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Compressive Sensing vs Deep Learning"
+date:   2015-09-29 09:09:09
+categories: general
+---
+
+Compressive sensing vs deep learning
+------------
+
+“In a way, residency is training the neural network of physicians”
+       -- Stanford Assistant Professor of Ophthalmology Richard Chang
+
+Recent trends in computational image analysis include compressive sensing (a topic of my thesis) and extremely popular deep learning (DL) approaches. The discussion here targets the “unreasonable effectiveness” (to misquote [Andrej Karpathy][karpathyBlog]) of deep neural networks (DNN) in practical, physician-centric approach.  A brief introduction is given for compressive sensing (CS), parallels are drawn between CS and DL, and a commentary with annotated figures presented on why CS has not seen more uptake in image analysis as opposed to DL where application has been rapid (e.g. [EyePACS + EyeNucs Retinopathy diagnosis][eyeNucs] using Ben Graham’s winning [DL algorithm][benKaggle]).  The argument hinges on human perception of texture that in a way DL perceives in a familiar fashion to physicians.  
+
+Compressive sensing overview
+------------
+
+
+Hi, I’m Leo, the Deep Learning Community Manager at NVIDIA NALA.  Take with a grain of salt my latest thoughts on DL and updates on events.  
+
+I'm just getting started on Jekyll.  I'm looking at [Jekyll's docs][jekyll], [GitHub repo][jekyll-gh], and [GitHub docs][jekyll-help].  I followed Barry Clark's [guide][jekyllGitPages] for initial setup.
+
+[karpathyBlog]:   http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+[eyeNucs]:        http://ir.uiowa.edu/cgi/viewcontent.cgi?article=1033&context=omia
+[benKaggle]:      https://www.kaggle.com/c/diabetic-retinopathy-detection/forums/t/15801/competition-report-min-pooling-and-thank-you/89062
+[jekyll]:         http://jekyllrb.com
+[jekyll-gh]:      https://github.com/jekyll/jekyll
+[jekyll-help]: 	  https://github.com/jekyll/jekyll-help
+[jekyllGitPages]: http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
