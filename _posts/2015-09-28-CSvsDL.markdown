@@ -41,7 +41,7 @@ Physicians view automated diagnosis tools cautiously but welcome methods to impr
 
 Further reading
 
-Yann Lecun's talk at GTC is a good introduction to DL ([here][LeCunGTC])
+Yann Lecun's talk at GTC is a good introduction to DL ([slides][LeCunGTC])
 
 Andrej Karpathy's [blog][karpathyBlog] out of Feifei Li's lab
 
