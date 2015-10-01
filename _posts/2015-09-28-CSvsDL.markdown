@@ -31,11 +31,12 @@ Medical Features from a CNN
 ------------
 Working with Prof. Chang on automatic diagnosis of diabetic retinopathy, he noted “In a way, residency is training the neural network of physicians.”  Our algorithm ([15th on Kaggle][kaggleLeaderboard]) used many of the techniques featured in other blog posts on the topic: common-sense data augmentation, training a deep convolutional NN on 1024x1024 images, both-eyes analysis, etc. etc.  (Unfortunately, we didn't do model ensembling due to time constraints, widely known as beneficial).
 
-It’s possible to visualize the features extracted by the CNN and below is shown the features for a convolutional layer trained on 40000+ fundus images using DIGITS 2 ([github][digitsNV]).
+It’s possible to visualize the features extracted by the CNN and below is shown the features for a pooling layer trained on 40000+ retinal images using DIGITS 2 ([github][digitsNV]).
 
 ![retinal features from a convolutional layer]({{ site.url }}/assets/retTexturalDIGITSv2.png)
+*Pictured above are the features for a pooling layer from AlexNet trained on 40000+ retinal images using DIGITS 2([github][digitsNV]). The feature images are displayed in false color and span the entire image.*
 
-What’s fascinating reviewing the features in this layer is that they are primarily textural/vascular.  When ophthalmologists described features indicating disease progression, the most difficult features to explain were the distributed textural features, usually corresponding to angiogenesis.  Textural features are usually foreign to human perception because we do not encounter them in everyday experience – we are not trained on these features.
+Reviewing the features in this layer indiciates they span the entire image and are primarily textural/vascular instead of point-like hemorrhages.  When ophthalmologists described features indicating disease progression, the most difficult features to explain were the distributed textural features, usually corresponding to angiogenesis.  Textural features are usually foreign to human perception because we do not encounter them in everyday experience – we are not trained on these features.
 
 Physicians view automated diagnosis tools cautiously but welcome methods to improve their accuracy and standard of care.  The right method will win out if it helps the physician.  The most promising medical applications in DL are for “pre-screen” identification and visualizations tools. Going back to Robert's quote, DL will help physicians train “smarter” by seeing more disease cases.
 
