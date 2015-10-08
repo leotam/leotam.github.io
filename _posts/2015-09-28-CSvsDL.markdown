@@ -8,7 +8,7 @@ categories: general
 	“In a way, residency is training the neural network of physicians”
 		-- Stanford Assistant Professor of Ophthalmology Richard Chang
 
-Recent trends in computational image analysis include compressive sensing (a topic of my thesis) and extremely popular deep learning (DL) approaches. The discussion here targets the “unreasonable effectiveness” ([Yann LeCun at GTC][LeCunGTC]) of deep neural networks (DNN) in practical, physician-centric approachs.  A brief introduction is given to compressive sensing (CS), parallels are drawn between CS and DL, and a commentary with figures on why CS has not seen more uptake in image analysis as opposed to DL where application has been rapid (e.g. [EyePACS + Eyenuk Retinopathy diagnosis][eyeNucs] using Ben Graham’s winning [DL algorithm][benKaggle]).  The discussion focusses on human sensitivity to texture that DNNs identify in a familiar fashion to physicians.  
+Recent trends in computational image analysis include compressive sensing (a topic of my thesis) and extremely popular deep learning (DL) approaches. The discussion here targets the “unreasonable effectiveness” ([Yann LeCun at GTC][LeCunGTC]) of deep neural networks (DNN) in practical, physician-centric approachs.  A brief introduction is given to compressive sensing (CS), parallels are drawn between CS and DL, and a commentary with figures on why CS has not seen more uptake in image analysis as opposed to DL where application has been impressive, for instance Ben Graham’s winning [DL algorithm][benKaggle]).  The discussion focusses on human sensitivity to texture that DNNs identify in a familiar fashion to physicians.  
 
 Compressive sensing overview
 ------------
