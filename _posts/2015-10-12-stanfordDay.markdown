@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stanford End-to-End Analytics"
+title:  "NVIDIA Accelerated Computing Day at Stanford"
 date:   2015-10-12 15:00:00
 categories: general
 ---
