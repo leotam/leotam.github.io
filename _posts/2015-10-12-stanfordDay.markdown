@@ -22,7 +22,7 @@ It turns out we weren't the only ones on campus.  Tesla and Elon Musk had a sign
 ![modelX]({{ site.url }}/assets/teslaModelX.jpeg)
 *Word was that this was just the second Model X off the line*
 
-[yahooSpark]		http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop
-[deepViz]			https://github.com/yosinski/deep-visualization-toolbox
-[HIVE]				https://icme.stanford.edu/computer-resources/hive
-[ff]   				http://stvp.stanford.edu/futurefest/
+[yahooSpark]:		http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop
+[deepViz]:			https://github.com/yosinski/deep-visualization-toolbox
+[HIVE]:				https://icme.stanford.edu/computer-resources/hive
+[ff]:   			http://stvp.stanford.edu/futurefest/
