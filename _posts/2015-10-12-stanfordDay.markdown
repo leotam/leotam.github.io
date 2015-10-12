@@ -5,7 +5,8 @@ date:   2015-10-12 15:00:00
 categories: general
 ---
 
-Last week, NVIDIA ran it's annual accelerated computing event at Stanford with this year's theme of End-to-End Analytics.  The event was held at the beautiful Jen-Hsun Huang Engineering Center right on the Engineering Quad.  The event was over-subscribed and the morning session featuring speakers such as NVIDIA Chief Architect of Automotive Urs Müller, Patrick Ehlen of Loop AI, Andrej Karpathy of Stanford CS, Cyprien Noel of [Yahoo][yahooSpark], and NVIDIA Chief DL Scientist Boris Ginsburg.  
+Last week, NVIDIA ran it's annual accelerated computing event at Stanford with this year's theme of End-to-End Analytics.  The event was held at the beautiful Jen-Hsun Huang Engineering Center right on the Engineering Quad.  The event was over-subscribed and the morning session featuring speakers such as NVIDIA Chief Architect of Automotive Urs Müller, Patrick Ehlen of Loop AI, Andrej Karpathy of Stanford CS, Cyprien Noel of [Yahoo][yahooSpark], and NVIDIA Chief DL Scientist Boris Ginsburg 
+
 ![ursTalk]({{ site.url }}/assets/ursTalk.jpeg)
 *Talk by NVIDIA Chief Architect of Automotive Urs Müller was packed*
 
