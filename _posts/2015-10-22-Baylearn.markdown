@@ -8,21 +8,25 @@ categories: general
 Last week, I had the pleasure of attending the [Baylearn Symposium][baylearn], a machine learning (essentially deep learning) conference with the intimate character of a small gathering of experts.  Andrew Ng opened the session unveiling FaceYou, a Halloween themed app.  He closed by noting a Moore's law for mobile processors at the Gflop scale.
 
 ![faceYou]({{ site.url }}/assets/image2.JPG)
+
 *Live demo of FaceYou by Andrew Ng*
 
 Yann Lecun gave his keynote on unsupervised learning, posting [his slides][LecunSlides].  He noted the limitations of reinforcement learning.  It was a wide ranging talk definitely worth reading.
 
 ![reinforcementMeh]({{ site.url }}/assets/image3.JPG)
+
 *Yann LeCun notes on reinforcement learning*
 
 Jeff Dean discussed Google's TensorFlow framework as a general ML tool.  It's motivated by the desire to reduce experimental feedback to the order of minutes for rapid iteration and exploration.  He announced the Google Residency program for researchers to work 1 year at Google and publish.
 
 ![jeff]({{ site.url }}/assets/image4.JPG)
+
 *Jeff Dean describing a machine translation system*
 
 Trevor Darrell described advances for robotics and autonomous driving.  He announced the DeepDrive program at Berkeley with many sponsors.  Notably, there was a great poster on Robotics, the [Robobarista][robolink].  Robobarista tackles the challenging task of learning motions in 3D space in a joint Cornell-Stanford work by Jaeyong Song and others.  They even plan to open source [their dataset][roboData] of fundamental motions collected through mechanical turk.  
 
 ![darrell]({{ site.url }}/assets/image5.JPG)
+
 *Robots shown by Trevor Darrell of Berkeley* 
 
 The Baylearn symposium was an incredible experience to hear from the leaders in deep learning.  
