@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "360fashion sponsored by IBM"
+date:   2015-11-06 15:00:00
+categories: general
+---
+
+Last week, a free, invitation-only event hit my radar courtesy of my counterpart in EMEA, the esteemable [Alison Lowndes][AlisonTwitter]. The [360Fashion Awards][360fashion] brought together technology and wearables with deep learning, AI, and startups putting them into practice.  After checking out a [deeplearning4j workshop][dl4j], I hopped over to the Metreon for the IBM event.
+
+![ibmSponsor]({{ site.url }}/assets/ibmSponsor.JPG)
+
+*360Fashion sponsored by IBM*
+
+The venue was certainly excellent, the 4th floor of the Metreon, normally reserved for functions.  The Metreon situated near the Moscone Center (home to many a tech conference) is a typical spot to watch a film.  
+
+![metreonCityview]({{ site.url }}/assets/metreonCityview.JPG)
+
+*Extremely noisy nightshot of the City View from the Metreon.  I just want someone to put a full frame sensor into a phone.*
+
+In the spirit of the visual aspect of the event, here are a few quick images and reactions
+
+![physics]({{ site.url }}/assets/physics.JPG)
+
+*This dress has lighting reflecting biometric signals such as heart rate*
+
+![AItrends]({{ site.url }}/assets/AItrends.JPG)
+
+*Social response billboard.  AI and deep learning reaching into all corners of our lives.* 
+
+IBM continues it's forward-looking trend approach.  My contacts at IBM point out another reach into daily lives [Chef Watson][chefWatson], what a world!
+
+
+[AlisonTwitter]: https://twitter.com/AlisonBLowndes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+[360fashion]: 360fashion.net/awards-2015/
+[dl4j]:https://github.com/deeplearning4j/deeplearning4j
+[chefWatson]:https://www.ibmchefwatson.com/
+
