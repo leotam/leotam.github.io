@@ -8,7 +8,7 @@ categories: general
 Every now and then, an opportunity arises to participate in events that preview advances in deep learning and computer vision.  One such event was the Berkeley Vision and Learning Center ([BVLC][bvlcHome]) retreat, where the department showcases the depth and breadth of its department.  The industry attendance was significant including Siemens, Samsung, Huawei, Yahoo, Adobe, Intel, Amazon A9 and others. 
 
 ![berk]({{ site.url }}/assets/berkeleyCollegeHill3.JPG)
-*A beautiful day at the Berkeley CS department.  Berkley University is a "college on a hill" possessing a heaping portion of idyllic charm.*
+*A beautiful day at the Berkeley CS department.  Berkeley University is a "college on a hill" possessing a heaping portion of idyllic charm.*
 
 The spirit, if not focus of the retreat, tended towards deployment and robotics systems.  To quote Prof. Darrell, systems must be "articulate, adaptable, and actionable".  The BVLC folks have a long view where recent advances in deep learning (DL) such as image captioning are stepping stones to more autonomous robotics systems.  Advances in multi-modality (e.g. image to text [github][karpathyGit]) DL systems are natural requirements of systems that interact with humans in natural and fluent fashions.
 
