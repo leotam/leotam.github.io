@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Neuroinformation Processing Systems 2015"
+date:   2015-12-17 15:00:00
+categories: general
+---
+
+At the outset of winter, thousands of leading AI and deep learning researchers converged on the Quebeçois stronghold of Montreal.  With over 4000 thousand partcipants, the conference has grown by over 1000 attendees (this was met with some consternation from the veterans, when presenters had not grown at the same rate. This could be assigned to increased industry participation who are very much practitioners).
+
+![montreal]({{ site.url }}/assets/montreal.JPG)
+*The energy of the Quebeçois was manifest with strikers out in force*
+
+Anticipation built for the conference with community contributions such as Andrej's classic label sorted visual representation of conference submissions [link][karpathyViz].  NVIDIA's preparation involved organizing Titan X raffles and staging a booth with hardware deep learning demostrations staffed by our technical scientists throughout the conference.  
+
+![boothNV]({{ site.url }}/assets/boothNV.JPG)
+*The NVIDIA was double-wide bursting with parallel computation power and foot traffic from its prime location*
+
+We ran four demonstrations.  The first was a DIGITS DevBox demonstration, which is deep learning as an out of the box solution.  With four Titan X's, it's the maximum amount of compute available from a wall socket.  It's preloaded with deep learning software and we used it to demonstrate [DIGITS][digits], the NVIDIA deep learning training system.  The main dataset was a Kespry satellite imagery dataset with classes built from image crops from high resolution drone imagery.  A model was trained in DIGITS that reached 97% class accuracy.  The model was used in the second demonstration, which showed the model deployed on the Jetson TX1.  The recently released Jetson TX1 has 256 Maxwell cuda cores which allowed near real-time processing and classification of features.  Bounding boxes corresponding to multiple classes are identified by the deep neural network on high resolution (2000x1300 images).  The third demonstration Lablr demonstrated a method for semi-supervised learning by applying a trained model to new data and clustering via 3D t-SNE algorithm.  It's a great tool for an analyst to rapidly make sense of a new dataset.  The fourth demonstration was a rank-mountable 8x [M40][anandtechM40] model, underscoring that the ability to scale to enterprise is available immediately.
+
+![titanWin]({{ site.url }}/assets/titanWin.JPG)
+*A happy Titan X winner on the first day.  Furthermore our social event involved widescale gifts of our Jetson TX1*
+
+The NVIDIA commitment to spread the holiday cheer did not stop with Titan X raffles at our booth – it included workshop sponsorships and a open bar social with distribution of our Jetson TX1. Speaking with some recipients, ideas included applications where network connectivity is not guaranteed and security applications where peer to peer communicationa and computation are requirements.  It's a fascinating and the unified hardware and software options shown at our booth provide clear paths for prototyping.
+
+Aside from the clear NVIDIA bias here, the momentum in the deep learning community continues to build.  Major announcements included Microsoft Research winning the ImageNet competition in three categories with a [greater than 100 layer NN][MSRnet] (the competition has grown more difficult each year with the current competition focussing on semantic and segmentation tasks), the announcement of $1Bn funding of [OpenAI][openAI] lead by Ilya Sutskever of Google Research, Google's release of Inception v3 model parameters, and Facebook's [Big Sur Open hardware][bigSur] architecture announcement.  In terms of network architectures, new releases included [EASGD with Nesterov momentum][easgd], asynchronous parallel reinforcement learning from DeepMind, and [Deep Convolutional Generative Adverserial Networks][dcgan].  The developments are indications that we are on the knee of an exponential rise in capabilities of deep learning.
+
+[digits]: http://github.com/nvidia/digits
+[openAI]: https://openai.com/blog/introducing-openai/
+[karpathyViz]: https://cs.stanford.edu/people/karpathy/nips2015/
+[bigSur]: https://code.facebook.com/posts/1687861518126048/facebook-to-open-source-ai-hardware-design/
+[anandtechM40]: http://www.anandtech.com/show/9776/nvidia-announces-tesla-m40-m4-server-cards-data-center-machine-learning
+[easgd]: http://arxiv.org/abs/1412.6651
+[dcgan]: http://arxiv.org/abs/1506.05751
+[MSRnet]: http://arxiv.org/abs/1512.03385
