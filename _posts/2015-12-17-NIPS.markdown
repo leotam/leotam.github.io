@@ -5,10 +5,10 @@ date:   2015-12-17 15:00:00
 categories: general
 ---
 
-At the outset of winter, thousands of leading AI and deep learning researchers converged on the Quebeçois stronghold of Montreal.  With over 4000 thousand partcipants, the conference has grown by over 1000 attendees (this was met with some consternation from the veterans, when presenters had not grown at the same rate. This could be assigned to increased industry participation who are very much practitioners).
+At the outset of winter, thousands of leading AI and deep learning researchers converged on the Québécois stronghold of Montreal.  With over 4000 thousand partcipants, the conference has grown by over 1000 attendees (this was met with some consternation from the veterans, when presenters had not grown at the same rate. This could be assigned to increased industry participation who are very much practitioners).
 
 ![montreal]({{ site.url }}/assets/montreal.JPG)
-*The energy of the Quebeçois was manifest with strikers out in force*
+*The energy of the Québécois was manifest with strikers out in force*
 
 Anticipation built for the conference with community contributions such as Andrej's classic label sorted visual representation of conference submissions [link][karpathyViz].  NVIDIA's preparation involved organizing Titan X raffles and staging a booth with hardware deep learning demostrations staffed by our technical scientists throughout the conference.  
 
