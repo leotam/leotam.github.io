@@ -61,6 +61,7 @@ Once your model is trained, push validation images file list through the model u
 
 There are many improvements that can be made to this initial approach, aside from the possibilites of a new direction that DiGITS may bring to your workflow.  Improvements include extending the regression to predict 600 values of the probability distribution, custom networks such as AlexNet or GoogLeNet (example protobuf files in DiGITS), data augmentation of the network (maybe rearranging time sequence), and hyperparameter adjustments.
 
+[kaggleLink]: https://www.kaggle.com/c/second-annual-data-science-bowl
 [mxnet]: https://www.kaggle.com/c/second-annual-data-science-bowl/forums/t/18079/end-to-end-deep-learning-tutorial-0-0392
 [submit]: https://drive.google.com/a/nvidia.com/file/d/0B4INBpiK_--SNXdDYmltdVd2cGc/view
 [valList]: https://drive.google.com/a/nvidia.com/file/d/0B4INBpiK_--SNldFajNlWXlrb1U/view
