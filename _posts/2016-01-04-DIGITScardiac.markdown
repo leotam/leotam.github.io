@@ -22,7 +22,7 @@ Interestingly, convolutions now act spatially and temporally on the image compos
 
 Non-classification datasets may be created in DiGITS through the "other" type of datasets. For these datasets, DiGITS expects the user to provide a set of LMDB databases. Note that since labels may be vectors (or matrices), it is not possible to use a single LMDB database to hold the image and its label. Therefore, DiGITS expects one LMDB database for the images and a separate LMDB database for the labels.
  
-Code snippet showing how the LMDB is created in Python:
+Writing the LMDB in Python:
 
 {% highlight python %}
 def _write_to_lmdb(db, key, value):
