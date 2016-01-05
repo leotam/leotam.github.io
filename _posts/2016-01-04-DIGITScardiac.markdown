@@ -55,11 +55,14 @@ the train mean image train_mean.binaryproto file (eg. /raid/leo/cardiac/trainDig
 Once the dataset has been created, create an 'other' model to generate a regression model. Paste in the prototxt file for [a basic Lenet][Lenet].  For solver options, set the base learning rate to 1e-8, click advanced learning rate options and select 65% for the set size %. 
 
 ![digitsModelHyperparams]({{ site.url }}/assets/digitsModelHyperparams.PNG)
+
 *Enter in the model hyperparameters via DiGITS as depicted*
 
 Once your model is trained, push validation images file list through the model using the 'Test Many' to create predictions for end diastolic and systolic LV volume prediction. Here is a [sample list][valList].  Several of these scripts were based off of Bing Xu's [Mxnet tutorial][mxnet] and other code from the NVIDIA DiGITS repository.  If submitting for evaluation on the leaderboard, a Python [script formats][submit] the predictions in terms of a cumulative probability distribution function. 
 
-There are many improvements that can be made to this initial approach, aside from the possibilites of a new direction that DiGITS may bring to your workflow.  Improvements include extending the regression to predict 600 values of the probability distribution, custom networks such as AlexNet or GoogLeNet (example protobuf files in DiGITS), data augmentation of the network (maybe rearranging time sequence), and hyperparameter adjustments.
+There are many improvements that can be made to this initial approach, aside from the possibilites of a new direction that DiGITS may bring to your workflow.  Improvements include extending the regression to predict 600 values of the probability distribution, custom networks such as AlexNet or GoogLeNet (example protobuf files in DiGITS), data augmentation of the network (maybe rearranging time sequence), different loss functions, hyperparameter adjustments, etc.
+
+Happy competing!
 
 [kaggleLink]: https://www.kaggle.com/c/second-annual-data-science-bowl
 [mxnet]: https://www.kaggle.com/c/second-annual-data-science-bowl/forums/t/18079/end-to-end-deep-learning-tutorial-0-0392
