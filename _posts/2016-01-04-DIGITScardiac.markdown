@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cardiac Regression with DiGITS"
-date:   2015-01-04 15:00:00
+date:   2016-01-04 15:00:00
 categories: general
 ---
 
