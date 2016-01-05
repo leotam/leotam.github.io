@@ -21,7 +21,7 @@ Run this in the folder that you've put all your training images, eg. /raid/leo/c
 Interestingly, convolutions now act spatially and temporally on the image composed of a time series of images.  When the preprocessing is done, fire up DIGITs 3.0.
 
 Non-classification datasets may be created in DiGITS through the "other" type of datasets. For these datasets, DiGITS expects the user to provide a set of LMDB databases. Note that since labels may be vectors (or matrices), it is not possible to use a single LMDB database to hold the image and its label. Therefore, DiGITS expects one LMDB database for the images and a separate LMDB database for the labels.
-
+ 
 Code snippet showing how the LMDB is created in Python:
 
 {% highlight python %}
