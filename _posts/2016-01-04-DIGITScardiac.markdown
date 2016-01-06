@@ -19,7 +19,7 @@ Run this in the folder that you've put all your training images, eg. /raid/leo/c
 
 *27 sequential cardiac images are tiled and stacked to create a false color image.  What do the colored regions represent and what in what domains does a convolution act on this image?*
 
-Interestingly, convolutions now act spatially and temporally on the image composed of a time series of images.  When the preprocessing is done, fire up DIGITs 3.0.
+Interestingly, convolutions now act spatially and temporally since the image is composed of a time series of images.  When the preprocessing is done, fire up DIGITs 3.0.
 
 Non-classification datasets may be created in DiGITS through the "other" type of datasets. For these datasets, DiGITS expects the user to provide a set of LMDB databases. Note that since labels may be vectors (or matrices), it is not possible to use a single LMDB database to hold the image and its label. Therefore, DiGITS expects one LMDB database for the images and a separate LMDB database for the labels.
  
