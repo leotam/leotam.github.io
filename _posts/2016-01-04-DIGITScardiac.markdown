@@ -9,11 +9,11 @@ This year NVIDIA is co-sponsoring the National Data Science Bowl [competition][k
 
 DiGITS is a graphical interface with handy real-time visualization of model training.  It is accessible to the starting DL researcher and useful for the more advanced user.  For the competition here, the model finetuning and easily accessible hyper-parameter management will prove useful in phase II, where the validation labels are released.  The software requirements are DiGITs 3 which now has [deb packages][deb] installation for Ubuntu 14.04.  Other required software includes Python 2.X and the associated packages used, eg. pydicom, numpy, scipy.  The dataset is obtained through the [Kaggle website][kagCardiac].
 
-We run a number of preprocessing scripts to extract the data from Dicom format using [pydicom][pydicom].  Before running the scripts, copy a skeleton directory structure to destination folder via a terminal, eg. 
+We run a number of preprocessing scripts to extract the data from DICOM format using [pydicom][pydicom].  Before running the scripts, copy a skeleton directory structure to destination folder via a terminal, eg. 
 
 sudo find -type d -links 2 -exec mkdir -p "/raid/leo/cardiac/trainDigits/{}" \;
 
-Run this in the folder that you've put all your training images, eg. /raid/leo/cardiac/train.  Now run the preprocessing [script][preproc] which will extract frames of 27 cardiac MR images nearly representing a cardiac cycle, reshaping them into a single image composed of 3x3 tiles x3 channels (false RGB).  Make sure to change data paths on lines 165-172 to match your file system.
+Run this in the folder that you've put all your training images, eg. /raid/leo/cardiac/train.  Now run the preprocessing [script][preproc] which will extract frames of 27 cardiac MR images, nearly representing a cardiac cycle, and reshape them into a single image composed of 3x3 tiles x3 channels (false RGB).  Make sure to change data paths on lines 165-172 to match your file system.
 
 ![IM5306falseColorHeart]({{ site.url }}/assets/IM5306falseColorHeartV2.JPG)
 
@@ -63,7 +63,7 @@ Once the dataset has been created, create an 'other' model to generate a regress
 
 Once your model is trained, push validation images file list through the model using the 'Test Many' to create predictions for end diastolic and systolic LV volume prediction. Here is a [sample list][valList].  Several of these scripts were based off of Bing Xu's [Mxnet tutorial][mxnet] and other code from the NVIDIA DiGITS repository.  If submitting for evaluation on the leaderboard, a Python [script formats][submit] the predictions in terms of a cumulative probability distribution function. 
 
-There are many improvements that can be made to this initial approach, aside from the possibilites of a new direction that DiGITS may bring to your workflow.  Improvements include extending the regression to predict 600 values of the probability distribution, custom networks such as AlexNet or GoogLeNet (example protobuf files in DiGITS), data augmentation of the network (maybe rearranging time sequence), different loss functions, hyperparameter adjustments, etc.
+There are many improvements that can be made to this initial approach, aside from the possibilites of a new direction that DiGITS may bring to your workflow.  Improvements include extending the regression to predict 600 values of the probability distribution, improved networks such as AlexNet or GoogLeNet (example protobuf files in DiGITS), data augmentation of the network (maybe rearranging time sequence), different loss functions, hyperparameter adjustments, etc.
 
 Happy competing!
 
