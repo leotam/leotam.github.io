@@ -49,11 +49,11 @@ def _write_to_lmdb(db, key, value):
 
 In the generic dataset creation form, you need to provide the paths to:
 
-the train image database (eg. /raid/leo/cardiac/trainDigits/train_images)
+  1. the train image database (eg. /raid/leo/cardiac/trainDigits/train_images)
 
-the train label database (eg. /raid/leo/cardiac/trainDigits/train_labels)
+  2. the train label database (eg. /raid/leo/cardiac/trainDigits/train_labels)
 
-the train mean image train_mean.binaryproto file (eg. /raid/leo/cardiac/trainDigits/train_mean.binaryproto)
+  3. the train mean image train_mean.binaryproto file (eg. /raid/leo/cardiac/trainDigits/train_mean.binaryproto)
 
 Once the dataset has been created, create an 'other' model to generate a regression model. Paste in the prototxt file for [a basic Lenet][Lenet].  For solver options, set the base learning rate to 1e-8, click advanced learning rate options and select 65% for the set size %. 
 
