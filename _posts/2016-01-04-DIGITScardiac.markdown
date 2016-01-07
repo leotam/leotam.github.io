@@ -55,7 +55,7 @@ In the generic dataset creation form, you need to provide the paths to:
 
   3. the train mean image train_mean.binaryproto file (eg. /raid/leo/cardiac/trainDigits/train_mean.binaryproto)
 
-Once the dataset has been created, create an 'other' model to generate a regression model. Paste in the prototxt file for [a basic Lenet][Lenet].  For solver options, set the base learning rate to 1e-8, click advanced learning rate options and select 65% for the set size %. 
+Once the dataset has been created, create an 'other' model to generate a regression model. Paste in the prototxt file for [a basic Lenet][Lenet].  For solver options, set the base learning rate to 1e-8, click advanced learning rate options and select 65% for the step size %. 
 
 ![digitsModelHyperparams]({{ site.url }}/assets/digitsModelHyperparamsV2.PNG)
 
