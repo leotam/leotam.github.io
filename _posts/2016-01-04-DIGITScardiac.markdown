@@ -15,7 +15,7 @@ sudo find -type d -links 2 -exec mkdir -p "/raid/leo/cardiac/trainDigits/{}" \;
 
 Run this in the folder that you've put all your training images, eg. /raid/leo/cardiac/train.  Now run the preprocessing [script][preproc] which will extract frames of 27 cardiac MR images, nearly representing a cardiac cycle, and reshape them into a single image composed of 3x3 tiles x3 channels (false RGB).  Make sure to change data paths on lines 165-172 to match your file system.
 
-![IM5306falseColorHeart]({{ site.url }}/assets/IM5306falseColorHeartV2.JPG)
+![IM-11500falseColorHeart]({{ site.url }}/assets/IM-11500falseColorHeart.JPG)
 
 *27 sequential cardiac images are tiled and stacked to create a false color image.  What do the colored regions represent and what in what domains does a convolution act on this image?*
 
