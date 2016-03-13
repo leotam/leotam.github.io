@@ -41,9 +41,9 @@ Configure as follows:
 
 ![tfConfigure]({{ site.url }}/assets/tfConfigure.png)
 
-Here we have specified CUDA 7.5 and cuDNN version 4.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the specified file.  For the compiler versions, version 5.2 is specified for the Maxwell architecture.  The previous [guide][ramey] notes 3.0 should be built for K520s, which are the GPU types on AWS.  It's possible to build for multiple GPU architectures by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory (cd) into the source directory.  
+Here we have specified CUDA 7.5 and cuDNN version 4 and accepted the default locations.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the specified file.  For the compiler versions, version 5.2 is specified for the Maxwell architecture.  The previous [guide][ramey] notes 3.0 should be built for K520s, which are the GPU types on AWS.  It's possible to build for multiple GPU architectures by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory (cd) into the source directory.  
 
-We'll want to finish the guide, though making the appropriate substitution to install from the latest version of TF using:
+We finish the [guide][ramey], though making the appropriate substitution to install from the latest version of TF using:
 
 {% highlight bash %}
 sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
@@ -107,7 +107,7 @@ We've just used the *with tf.device* command as usual to explicitly execute aspe
 
 Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their code][cifar10gpu] for multi-node, multi-GPU training.
 
-Any questions, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go out to [John Ramey][ramey] and the TF [developers][tfDevs].  
+Any questions, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the TF [developers][tfDevs].  
 
 [tfDevs]: https://www.tensorflow.org/about.html
 [warpCTC]: https://github.com/baidu-research/warp-ctc
