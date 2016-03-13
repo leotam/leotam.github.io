@@ -107,7 +107,7 @@ We've just used the *with tf.device* command as usual to explicitly execute aspe
 
 Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their code][cifar10gpu] for multi-node, multi-GPU training.
 
-Any questions, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the TF [developers][tfDevs].  
+Any questions, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the [TF developers][tfDevs].  
 
 [tfDevs]: https://www.tensorflow.org/about.html
 [warpCTC]: https://github.com/baidu-research/warp-ctc
