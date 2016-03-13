@@ -43,7 +43,7 @@ Configure as follows:
 
 Here we have specified CUDA 7.5 and cuDNN version 4 and accepted the default locations.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the specified file.  For the compiler versions, version 5.2 is specified for the Titan X.  The previous [guide][ramGuide] notes 3.0 should be built for K520s, which are the GPU types on AWS.  A full list is available [here][nvCompute].  It's possible to build for multiple GPU architectures by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory into the source directory.  
 
-We finish the [guide][ramGuide], though making the appropriate substitution to install from the latest version of TF using:
+We finish the [guide][ramGuide], though making the appropriate substitution to install from the latest version of TF, for example:
 
 {% highlight bash %}
 sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
