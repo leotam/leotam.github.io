@@ -15,7 +15,7 @@ A distributed training uses the resources from a cluster of machines, usually CP
 
 Again, the community response has been tremendous with releases for major frameworks out in the wild.  Major releases include Yahoo's [caffe-on-spark][caffeSpark], Twitter's [torch-distlearn][torchDist], and Google's [TensorFlow distributed runtime][tfDist].
 
-Now we have laid the groundwork, it's time to setup distributed TensorFlow.  We'll setup an environment in Ubuntu 14.04 sometimes labeled as the Trusty release.  We'll follow John Ramey's [guide][ramhiser] with a few modifications for using updated CUDA, cuDNN, and TensorFlow distributed.  The components are as follows:
+Now we have laid the groundwork, it's time to setup distributed TensorFlow.  We'll setup an environment in Ubuntu 14.04 sometimes labeled as the Trusty release.  We'll follow John Ramey's [guide][ramey] with a few modifications for using updated CUDA, cuDNN, and TensorFlow distributed.  The components are as follows:
 
 - Ubuntu utilities
 - CUDA backend 7.5
@@ -23,7 +23,7 @@ Now we have laid the groundwork, it's time to setup distributed TensorFlow.  We'
 - Google's Bazel build tool 0.1.4
 - TensorFlow and TensorFlow distributed runtime
 
-Follow the linked [guide][ramhiser] up until the CUDA repository download through wget.  To pull the latest CUDA repositiory run:
+Follow the linked [guide][ramey] up until the CUDA repository download through wget.  To pull the latest CUDA repositiory run:
 
 {% highlight bash %}
 sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
@@ -41,7 +41,7 @@ Configure as follows:
 
 ![tfConfigure]({{ site.url }}/assets/tfConfigure.png)
 
-Here we have specified CUDA 7.5 and cuDNN version 4.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the specified file.  For the compiler versions, version 5.2 is specified for the Maxwell architecture.  The previous [guide][ramhiser] notes 3.0 should be built for K520s, which are the GPU types on AWS.  It's possible to build for multiple GPU architectures by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory (cd) into the source directory.  
+Here we have specified CUDA 7.5 and cuDNN version 4.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the specified file.  For the compiler versions, version 5.2 is specified for the Maxwell architecture.  The previous [guide][ramey] notes 3.0 should be built for K520s, which are the GPU types on AWS.  It's possible to build for multiple GPU architectures by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory (cd) into the source directory.  
 
 We'll want to finish the guide, though making the appropriate substitution to install from the latest version of TF using:
 
