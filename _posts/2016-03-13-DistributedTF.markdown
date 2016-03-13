@@ -34,9 +34,7 @@ sudo apt-get install cuda
 The next step is downloading cuDNN, which is a library with DL primitives optimized on the assembler (GPU architecture) level.  We'll download the latest version available, and later versions are easily accepted in the configuration step below.  Note cuDNN has received enormous attention with five releases over the past year.  Continue with installation as per the guide until reaching configuration of the Bazel build:
 
 {% highlight bash %}
-sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
-sudo apt-get update
-sudo apt-get install cuda
+sudo TF_UNOFFICIAL_SETTING=1 ./configure
 {% endhighlight %}
 
 Configure as follows:
@@ -109,7 +107,7 @@ We've just used the *with tf.device* command as usual to explicitly execute aspe
 
 Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their code][cifar10gpu] for multi-node, multi-GPU training.
 
-Any questions, please open an issue on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go out to [John Ramey][ramey] and the TF [developers][tfDevs].  
+Any questions, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go out to [John Ramey][ramey] and the TF [developers][tfDevs].  
 
 [tfDevs]: https://www.tensorflow.org/about.html
 [deepmindAG]: https://deepmind.com/alpha-go.html
