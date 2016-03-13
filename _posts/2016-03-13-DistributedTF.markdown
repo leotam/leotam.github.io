@@ -103,7 +103,7 @@ t2 = datetime.datetime.now()
 print "Multi node computation time: " + str(t2-t1)
 {% endhighlight %}
 
-We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph.  The session calls a node and the gRPC protocol handles communication on the cluster seamlessly.  It's possible to implement more complicated parameter server training paradigms, and Jeff Dean has mentioned they devote a separate parameter server cluster consisting of over 100 nodes just to handle the updating of parameters!
+We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph.  The session calls a node and the gRPC protocol handles communication on the cluster seamlessly.  It's possible to implement more complicated parameter server training paradigms, and Jeff Dean has mentioned they devote a separate parameter server cluster consisting of over 100 nodes just to handle to store and update neural network weights!
 
 Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their multi-GPU code][cifar10gpu] for multi-node, multi-GPU training.
 
