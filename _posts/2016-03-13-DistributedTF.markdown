@@ -99,7 +99,7 @@ with tf.device("/job:worker/task:1/gpu:1"):
     c2 = matpow(B,n)
     
 t1 = datetime.datetime.now()
-with tf.Session("grpc://10.31.115.219:7777") as sess:
+with tf.Session("grpc://192.168.555.555:2500") as sess:
     sum = c1 + c2
 t2 = datetime.datetime.now()
 print "Multi node computation time: " + str(t2-t1)
