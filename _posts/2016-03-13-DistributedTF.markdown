@@ -5,7 +5,7 @@ date:   2016-03-13 15:00:00
 categories: general
 ---
 
-One of the most exciting recent developments is the broad availability of distributed deep learning packages.  As Google DeepMind co-founder Demis Hassabis noted, the distributed version of [AlphaGo][deepmindAG] wins about 80% as compared to the single node version.  First, let's survey what distributed training means and how it differs from non-distributed or single node training before we delve into the nuts and bolts of distributed TensorFlow.
+One of the most exciting recent developments is the broad availability of distributed deep learning packages.  As Google DeepMind co-founder Demis Hassabis noted, the distributed version of [AlphaGo][deepmindAG] wins about 80% over the single node version.  First, let's survey what distributed training means and how it differs from non-distributed or single node training before we delve into the nuts and bolts of distributed TensorFlow.
 
 ![demisAlphaGo]({{ site.url }}/assets/demisAlphaGo.JPG)
 
@@ -103,9 +103,9 @@ t2 = datetime.datetime.now()
 print "Multi node computation time: " + str(t2-t1)
 {% endhighlight %}
 
-We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph.
+We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph.  The session calls a node and the gRPC protocol handles communication on the cluster seamlessly.  It's possible to implement more complicated parameter server training paradigms, and Jeff Dean has mentioned they devote a separate parameter server cluster consisting of over 100 nodes just to handle the updating of parameters!
 
-Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their code][cifar10gpu] for multi-node, multi-GPU training.
+Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their multi-GPU code][cifar10gpu] for multi-node, multi-GPU training.
 
 Any questions, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the [TF developers][tfDevs].  
 
