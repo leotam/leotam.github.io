@@ -15,7 +15,7 @@ A distributed training uses the resources from a cluster of machines, usually CP
 
 Again, the community response has been tremendous with releases for major frameworks out in the wild.  Major releases include Yahoo's [caffe-on-spark][caffeSpark], Twitter's [torch-distlearn][torchDist], and Google's [TensorFlow distributed runtime][tfDist].
 
-Now we have laid the groundwork, it's time to setup distributed TensorFlow.  We'll setup an environment in Ubuntu 14.04 sometimes labeled as the Trusty release.  We'll follow John Ramey's [guide][ramey] with a few modifications for using updated CUDA, cuDNN, and TensorFlow distributed.  The components are as follows:
+Now we have laid the groundwork, it's time to setup distributed TensorFlow.  We'll setup an environment in Ubuntu 14.04 sometimes labeled as the Trusty release.  We'll follow John Ramey's [guide][ramGuide] with a few modifications for using updated CUDA, cuDNN, and TensorFlow distributed.  The components are as follows:
 
 - Ubuntu utilities
 - CUDA backend 7.5
@@ -23,7 +23,7 @@ Now we have laid the groundwork, it's time to setup distributed TensorFlow.  We'
 - Google's Bazel build tool 0.1.4
 - TensorFlow and TensorFlow distributed runtime
 
-Follow the linked [guide][ramey] up until the CUDA repository download through *wget*.  To pull the latest CUDA repositiory run:
+Follow the linked [guide][ramGuide] up until the CUDA repository download through *wget*.  To pull the latest CUDA repositiory run:
 
 {% highlight bash %}
 sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb
@@ -41,9 +41,9 @@ Configure as follows:
 
 ![tfConfigure]({{ site.url }}/assets/tfConfigure.png)
 
-Here we have specified CUDA 7.5 and cuDNN version 4 and accepted the default locations.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the specified file.  For the compiler versions, version 5.2 is specified for the Maxwell architecture.  The previous [guide][ramey] notes 3.0 should be built for K520s, which are the GPU types on AWS.  It's possible to build for multiple GPU architectures by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory into the source directory.  
+Here we have specified CUDA 7.5 and cuDNN version 4 and accepted the default locations.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the specified file.  For the compiler versions, version 5.2 is specified for the Maxwell architecture.  The previous [guide][ramGuide] notes 3.0 should be built for K520s, which are the GPU types on AWS.  It's possible to build for multiple GPU architectures by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory into the source directory.  
 
-We finish the [guide][ramey], though making the appropriate substitution to install from the latest version of TF using:
+We finish the [guide][ramGuide], though making the appropriate substitution to install from the latest version of TF using:
 
 {% highlight bash %}
 sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
@@ -107,8 +107,11 @@ We've just used the *with tf.device* command as usual to explicitly execute aspe
 
 Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their multi-GPU code][cifar10gpu] for multi-node, multi-GPU training.
 
-Any questions, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the [TF developers][tfDevs].  
+If you want to learn more, there are several [distributed DL talks][gtcDist] at our GPU Technology conference ([register][regGTC]).  For any questions regarding distributed TensorFlow, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the [TF developers][tfDevs].  
 
+[ramGuide]: http://ramhiser.com/2016/01/05/installing-tensorflow-on-an-aws-ec2-instance-with-gpu-support/
+[regGTC]: https://gputechconf.smarteventscloud.com/portal/registration/leot21673
+[gtcDist]: http://registration.gputechconf.com/quicklink/3FfciVD
 [tfDevs]: https://www.tensorflow.org/about.html
 [warpCTC]: https://github.com/baidu-research/warp-ctc
 [deepmindAG]: https://deepmind.com/alpha-go.html
