@@ -31,7 +31,7 @@ sudo apt-get update
 sudo apt-get install cuda
 {% endhighlight %}
 
-The next step is downloading cuDNN, which is a library with DL primitives optimized on the assembler (GPU architecture) level.  We'll download the latest version available, and later versions are easily accepted in the configuration step below.  Note cuDNN has received enormous attention with five releases over the past year.  Continue with installation as per the guide until reaching configuration of the Bazel build:
+The next step is downloading cuDNN, which is a library with DL primitives optimized on the assembler (GPU architecture) level.  We'll download the latest version available, and later versions are easily accepted in the configuration step below.  Note cuDNN has received enormous attention with four releases over the past year.  Continue with installation as per the guide until reaching configuration of the Bazel build:
 
 {% highlight bash %}
 sudo TF_UNOFFICIAL_SETTING=1 ./configure
