@@ -77,8 +77,7 @@ The second node has been assigned a task_id of 2.  How does this work in practic
 {% highlight python %}
 import tensorflow as tf
 import datetime
-sess.close()
-ops.reset_default_graph()
+import numpy as np
 n = 4
 c1 = tf.Variable([])
 c2 = tf.Variable([])
@@ -103,7 +102,7 @@ t2 = datetime.datetime.now()
 print "Multi node computation time: " + str(t2-t1)
 {% endhighlight %}
 
-We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph.  The session calls a node and the gRPC protocol handles communication on the cluster seamlessly.  It's possible to implement more complicated parameter server training paradigms, and Jeff Dean has mentioned they devote a separate parameter server cluster consisting of over 100 nodes just to handle to store and update neural network weights!
+We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph.  The session calls a node and the gRPC protocol handles communication on the cluster seamlessly (remember to paste the correct IP address for your head node).  It's possible to implement more complicated parameter server training paradigms, and Jeff Dean has mentioned they devote a separate parameter server cluster consisting of over 100 nodes just to handle to store and update neural network weights!
 
 Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their multi-GPU code][cifar10gpu] for multi-node, multi-GPU training.
 
