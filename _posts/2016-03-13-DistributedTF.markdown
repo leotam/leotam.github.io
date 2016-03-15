@@ -87,17 +87,15 @@ def matpow(M, n):
     else:
         return tf.matmul(M, matpow(M, n-1))
 
-with tf.device("/job:worker/task:0/gpu:0"):
-    A = np.random.rand(1e2, 1e2).astype('float32')
-    c1 = matpow(A,n)
-    
-with tf.device("/job:worker/task:1/gpu:1"):
-    B = np.random.rand(1e2, 1e2).astype('float32')
-    c2 = matpow(B,n)
-    
 t1 = datetime.datetime.now()
-with tf.Session("grpc://192.168.555.555:2500") as sess:
-    sum = c1 + c2
+with tf.Session("grpc://10.31.115.218:7778") as sess:
+    with tf.device("/job:worker/task:0/gpu:0"):
+        A = np.random.rand(1e2, 1e2).astype('float32')
+        c1 = matpow(A,n)
+    with tf.device("/job:worker/task:1/gpu:1"):
+        B = np.random.rand(1e2, 1e2).astype('float32')
+        c2 = matpow(B,n)
+    sum = c1 + c2  
 t2 = datetime.datetime.now()
 print "Multi node computation time: " + str(t2-t1)
 {% endhighlight %}
