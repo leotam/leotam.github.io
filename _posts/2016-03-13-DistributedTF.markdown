@@ -62,7 +62,7 @@ Now the fun part, working with a cluster.  Fire up your cluster, which can be si
 
 {% highlight bash %}
 bazel-bin/tensorflow/core/distributed_runtime/rpc/grpc_tensorflow_server \
---cluster_spec='worker|192.168.555.555:2500;192.168.555.556:2501' --job_name=worker --task_id=0 &
+--cluster_spec='worker|192.168.555.254:2500;192.168.555.255:2501' --job_name=worker --task_id=0 &
 {% endhighlight %}
 
 The above would be the command for the first node, where 'worker' is the name of the cluster and the ip addresses and ports of the nodes follow.  A second command should be run at the second node:
@@ -72,7 +72,7 @@ bazel-bin/tensorflow/core/distributed_runtime/rpc/grpc_tensorflow_server \
 --cluster_spec='worker|192.168.555.254:2500;192.168.555.255:2501' --job_name=worker --task_id=1 &
 {% endhighlight %}
 
-The second node has been assigned a task_id of 2.  How does this work in practice?  We'll perform a simple distributed example using matrix multiplication computed on different nodes.
+The second node has been assigned a task_id of 1 (0 indexing).  How does this work in practice?  We'll perform a simple distributed example using matrix multiplication computed on different nodes.
 
 {% highlight python %}
 import tensorflow as tf
@@ -88,7 +88,7 @@ def matpow(M, n):
         return tf.matmul(M, matpow(M, n-1))
 
 t1 = datetime.datetime.now()
-with tf.Session("grpc://192.168.555.254:7777") as sess:
+with tf.Session("grpc://192.168.555.254:2500") as sess:
     with tf.device("/job:worker/task:0/gpu:0"):
         A = np.random.rand(1e2, 1e2).astype('float32')
         c1 = matpow(A,n)
