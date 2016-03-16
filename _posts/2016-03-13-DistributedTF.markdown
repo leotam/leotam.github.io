@@ -18,7 +18,7 @@ Again, the community response has been tremendous with releases for major framew
 Now we have laid the groundwork, it's time to setup distributed TensorFlow.  We'll setup an environment in Ubuntu 14.04 sometimes labeled as the Trusty release.  We'll follow John Ramey's [guide][ramGuide] with a few modifications for using updated CUDA, cuDNN, and TensorFlow distributed.  The components are as follows:
 
 - Ubuntu utilities
-- CUDA backend 7.5
+- CUDA 7.5
 - cuDNN version 4 
 - Google's Bazel build tool 0.1.4
 - TensorFlow and TensorFlow distributed runtime
