@@ -69,7 +69,7 @@ The above would be the command for the first node, where 'worker' is the name of
 
 {% highlight bash %}
 bazel-bin/tensorflow/core/distributed_runtime/rpc/grpc_tensorflow_server \
---cluster_spec='worker|192.168.555.555:2500;192.168.555.556:2501' --job_name=worker --task_id=1 &
+--cluster_spec='worker|192.168.555.254:2500;192.168.555.255:2501' --job_name=worker --task_id=1 &
 {% endhighlight %}
 
 The second node has been assigned a task_id of 2.  How does this work in practice?  We'll perform a simple distributed example using matrix multiplication computed on different nodes.
@@ -88,7 +88,7 @@ def matpow(M, n):
         return tf.matmul(M, matpow(M, n-1))
 
 t1 = datetime.datetime.now()
-with tf.Session("grpc://10.31.115.218:7778") as sess:
+with tf.Session("grpc://192.168.555.254:7777") as sess:
     with tf.device("/job:worker/task:0/gpu:0"):
         A = np.random.rand(1e2, 1e2).astype('float32')
         c1 = matpow(A,n)
@@ -100,7 +100,7 @@ t2 = datetime.datetime.now()
 print "Multi node computation time: " + str(t2-t1)
 {% endhighlight %}
 
-We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph on a device.  The session calls a node and the gRPC protocol handles communication on the cluster seamlessly (remember to paste the correct IP address for your head node).  It's possible to implement more complicated parameter server training paradigms, and Jeff Dean has mentioned they devote a separate parameter server cluster consisting of over 100 nodes just to handle to store and update neural network weights!
+We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph on a device.  The session calls a node and the gRPC protocol handles communication on the cluster seamlessly (remember to paste the correct IP address for your head node).  It's possible to implement more complicated parameter server training paradigms, and Jeff Dean has mentioned they devote a separate parameter server cluster consisting of over 100 nodes just to handle and update neural network weights!
 
 Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their multi-GPU code][cifar10gpu] for multi-node, multi-GPU training.
 
