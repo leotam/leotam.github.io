@@ -46,7 +46,7 @@ Here we have specified CUDA 7.5 and cuDNN version 4 and accepted the default loc
 We finish the [guide][ramGuide], though making the appropriate substitution to install from the latest version of TF, for example:
 
 {% highlight bash %}
-sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
+git clone --recurse-submodules https://github.com/tensorflow/tensorflow
 {% endhighlight %}
 
 Whew! Now to build the distributed runtime, we add the following build commands.
