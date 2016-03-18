@@ -34,6 +34,7 @@ sudo apt-get install cuda
 The next step is downloading cuDNN, which is a library with DL primitives optimized on the assembler (GPU architecture) level.  We'll download the latest version available, and later versions are easily accepted in the configuration step below.  Note cuDNN has received enormous attention with four releases over the past year.  Continue with installation as per the guide until reaching configuration of the Bazel build:
 
 {% highlight bash %}
+git clone --recurse-submodules https://github.com/tensorflow/tensorflow
 sudo TF_UNOFFICIAL_SETTING=1 ./configure
 {% endhighlight %}
 
@@ -46,7 +47,6 @@ Here we have specified CUDA 7.5 and cuDNN version 4 and accepted the default loc
 We finish the [guide][ramGuide], though making the appropriate substitution to install from the latest version of TF, for example:
 
 {% highlight bash %}
-git clone --recurse-submodules https://github.com/tensorflow/tensorflow
 bazel build -c opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
 bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.7.1-cp27-none-linux_x86_64.whl
