@@ -5,7 +5,7 @@ date:   2016-03-13 15:00:00
 categories: general
 ---
 
-*Update 4/14/16, the good people at Google have released a guide to distributed synchronous training of Inception v3 network [here][googleInception]. It's the solution to the suggested exercise*
+*Update 4/14/16, the good people at Google have released a guide to distributed synchronous training of Inception v3 network [here][googleInception]. It's the solution to the suggested exercise.*
 
 One of the most exciting recent developments is the broad availability of distributed deep learning packages.  As Google DeepMind co-founder Demis Hassabis noted, the distributed version of [AlphaGo][deepmindAG] wins about 80% over the single node version.  First, let's survey what distributed training means and how it differs from non-distributed or single node training before we delve into the nuts and bolts of distributed TensorFlow.
 
