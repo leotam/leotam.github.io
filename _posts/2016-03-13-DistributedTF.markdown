@@ -5,6 +5,8 @@ date:   2016-03-13 15:00:00
 categories: general
 ---
 
+*Update 4/14/16, the good people at Google have released a guide to distributed synchronous training of Inception v3 network [here][googleInception]. It's the solution to the suggested exercise*
+
 One of the most exciting recent developments is the broad availability of distributed deep learning packages.  As Google DeepMind co-founder Demis Hassabis noted, the distributed version of [AlphaGo][deepmindAG] wins about 80% over the single node version.  First, let's survey what distributed training means and how it differs from non-distributed or single node training before we delve into the nuts and bolts of distributed TensorFlow.
 
 ![demisAlphaGo]({{ site.url }}/assets/demisAlphaGo.JPG)
@@ -42,7 +44,7 @@ Configure as follows:
 
 ![tfConfigure]({{ site.url }}/assets/tfConfigure.png)
 
-Here we have specified CUDA 7.5 and cuDNN version 4 and accepted the default locations.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the entered directory.  For the compute capability, version 5.2 is specified for the Titan X.  The previous [guide][ramGuide] notes 3.0 should be built for K520s, which are the GPU types on AWS.  A full list is available [here][nvCompute].  It's possible to build for multiple compute capabilities by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory into the source directory.  
+Here we have specified CUDA 7.5 and cuDNN version 4 (sometimes with 7.0 file extension) and accepted the default locations.  If your cuDNN version is different, inspect the cuDNN download.  In the lib64 folder, the libcudnn.so file will have a postfix with the correct version number to enter.  The configuration simply looks for the cuDNN file in the entered directory.  For the compute capability, version 5.2 is specified for the Titan X.  The previous [guide][ramGuide] notes 3.0 should be built for K520s, which are the GPU types on AWS.  A full list is available [here][nvCompute].  It's possible to build for multiple compute capabilities by separating with a comma at the cost of a longer build time.  Continue with the installation build from the guide.  Remember to change directory into the source directory.  
 
 We finish the [guide][ramGuide], though making the appropriate substitution to install from the latest version of TF, for example:
 
@@ -109,6 +111,7 @@ Within the TensorFlow docs is an excellent section on [model parallel multi-GPU 
 
 If you want to learn more, there are several [distributed DL talks][gtcDist] at our GPU Technology conference ([register][regGTC]).  For any questions regarding distributed TensorFlow, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the [TF developers][tfDevs].  
 
+[googleInception]: https://github.com/tensorflow/models/tree/master/inception
 [nvCompute]: https://developer.nvidia.com/cuda-gpus
 [ramGuide]: http://ramhiser.com/2016/01/05/installing-tensorflow-on-an-aws-ec2-instance-with-gpu-support/
 [regGTC]: https://gputechconf.smarteventscloud.com/portal/registration/leot21673
