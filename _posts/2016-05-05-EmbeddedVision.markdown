@@ -21,6 +21,8 @@ In this blog post, I'll present a complementary tutorial on training in 16 bits 
 and is an excellent feature preview for developing on the upcoming Pascal architecture within the Supercomputer-in-a-Box [DGX-1][DGX].
 
 ![fp16]({{ site.url }}/assets/FP16.png)
+
+
 *The IEEE 754 half-precision floating-point format with 16 binary bits*
 
 First, grab the latest image for your TX1 through [Jetpack][jetpack].  NVIDIA provides the software free of charge and it's packed with goodies such as [VisionWorks][VS], [System Profiler][syspro], and [OpenCV4Tegra][opencvTegra].  If you choose to flash the image, this will displace your current system.  When prompted, install all the included packages.  The TX1 runs a full-fledged Linux kernel.  Start a terminal and check 
