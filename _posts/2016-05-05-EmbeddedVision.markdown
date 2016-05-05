@@ -18,7 +18,7 @@ First, grab the latest image for your TX1 through [Jetpack][jetpack].  NVIDIA pr
 uname -a
 {% endhighlight %}
 
-returns a recent date.  Next, install the relevant dependencies.
+returns a recent date.  Note, the power of the NVIDIA libraries allow high level API access to FP16 features.  Namely, [cuDNN][cuDNN] library version 3 introduced FP16 storage (activation values) and version 4 introduced arithmetic for convolutions.  Let's proceed by installing the relevant dependencies.
 
 {% highlight bash %}
 sudo apt-get update
@@ -49,6 +49,7 @@ This will enable users to explore the high thoroughput world of FP16 training. O
 
 Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].
 
+[cuDNN]: https://developer.nvidia.com/cudnn
 [bvlcAlexnet]: https://github.com/BVLC/caffe/tree/master/examples/imagenet
 [DGX]: http://www.nvidia.com/object/deep-learning-system.html
 [TX1]: http://www.nvidia.com/object/jetson-tx1-module.html
