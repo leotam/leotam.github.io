@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "FP16 Training on Embedded"
-date:   2016-05-05 15:00:00
+date:   2016-05-05 08:00:00
 categories: general
 ---
 
-The [2016 Embedded Vision Summit][EVS] recently took place in the heart of Silicon Valley.  The summit started with a bang when Jeff Dean announced some impressive results using 8 bit deep learning models for inference.  For embedded and edge applications of deep learning models, inference is a big deal.  A brief primer is that model size is reduced by four times since single precision uses 32 bits per value.  The power draw is significantly reduced as 8 bit arithmetic is nearly four times as fast and memory transfers can account for the majority of the power budget.  
+The [2016 Embedded Vision Summit][EVS] recently took place in the heart of Silicon Valley.  The summit started with a bang when Jeff Dean announced some impressive results using 8 bit deep learning models for inference.  For embedded and edge applications of deep learning models, inference is a big deal.  A brief primer is that model size is reduced by four times since single precision uses 32 bits per value.  The power draw is significantly reduced as 8 bit arithmetic is nearly four times as fast and memory transfers can account for the majority of the power budget.   
 
-![JeffDeanInference]({{ site.url }}/assets/JeffDean8BitIntegerInference.jpg)
+![JeffDeanInference]({{ site.url }}/assets/jeffDeanEVS.jpg)
+*Jeff Dean on the power and flexibility of deep learning* 
 
 In this blog post, I'll present a complementary tutorial on training in 16 bits on the [Jetson TX1][TX1], which delivers nearly a 2x performance increase.  Notably, 16 bit arithmetic is supported natively on the TX1 and is an excellent feature preview for developing on the upcoming Pascal architecture, eg. the Supercomputer-in-a-Box [DGX-1][DGX].
 
