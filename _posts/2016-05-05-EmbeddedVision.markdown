@@ -61,6 +61,8 @@ This will enable users to explore the high throughput  world of FP16 training. O
 Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].  Other interesting tutorials are [model fine tuning][modelTune] in our graphical [Deep Learning GPU training system DIGITS][digits].  Powerful as it is, the TX1 is not meant to train on massive datasets. It's big brother the [DGX-1][DGX] is a perfect companion.
 
 ![dgx]({{ site.url }}/assets/dgx1.jpg)
+
+
 *The DGX-1: world's first supercomputer in a box is slightly harder to integrate into your embedded platform*
 
 
