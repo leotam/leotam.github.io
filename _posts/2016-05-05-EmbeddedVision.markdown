@@ -54,6 +54,6 @@ Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC 
 [jetpack]:https://developer.nvidia.com/embedded/jetpack
 [syspro]:https://developer.nvidia.com/embedded/tegra-system-profiler
 [VS]:https://developer.nvidia.com/embedded/visionworks
-[OpenCV4Tegra]:http://docs.nvidia.com/gameworks/index.html#technologies/mobile/opencv_main.htm
+[opencvTegra]:http://docs.nvidia.com/gameworks/index.html#technologies/mobile/opencv_main.htm
 [whitepaper]: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjigNPOmcLMAhVX72MKHZr5AAQQFggdMAA&url=https%3A%2F%2Fwww.nvidia.com%2Fcontent%2Ftegra%2Fembedded-systems%2Fpdf%2Fjetson_tx1_whitepaper.pdf&usg=AFQjCNFnm3jR1fIq2reER87RgJFwM5sDlw
 [nvmake]: https://drive.google.com/file/d/0B4INBpiK_--SYmM3RFI1NFdXb0k/view?usp=sharing
