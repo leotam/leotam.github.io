@@ -39,14 +39,15 @@ cd nvcaffe
 make -j 4
 {% endhighlight %}
 
-That's it.  Now, you can run a training as follows:
+That's it.  Make sure your data is structured correctly, eg. [BVLC ImageNet recommendations][bvlcAlexnet].  Now, you can run a training as follows:
 
 {% highlight bash %}
-./build/tools/caffe_fp16 train --solver=models/bvlc_reference_caffenet/solver.prototxt
+./build/tools/caffe_fp16 train --solver=models/bvlc_reference_caffenet/solver.prototxt -gpu 0
 {% endhighlight %}
 
-Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper]
+Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].
 
+[bvlcAlexnet]: https://github.com/BVLC/caffe/tree/master/examples/imagenet
 [DGX]: http://www.nvidia.com/object/deep-learning-system.html
 [TX1]: http://www.nvidia.com/object/jetson-tx1-module.html
 [EVS]: http://www.embedded-vision.com/summit/agenda
