@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FP16 Training on Embedded"
+title:  "FP16 on embedded Jetson TX1"
 date:   2016-05-05 08:00:00
 categories: general
 ---
@@ -12,12 +12,12 @@ categories: general
 *Image courtesy Dustin Franklin*
 
 
-The [2016 Embedded Vision Summit][EVS] recently took place in the heart of Silicon Valley.  The summit started with a bang when Jeff Dean announced some impressive results using 8 bit deep learning models for inference.  For embedded and edge applications of deep learning models, 8 bit inference is a big deal.  A brief primer is that model size is reduced by four times since normally single precision uses 32 bits per value.  The power draw is significantly reduced as 8 bit arithmetic is nearly four times as fast and memory transfers can account for the majority of the power budget.   
+The [2016 Embedded Vision Summit][EVS] recently took place in the heart of Silicon Valley.  The summit started with a bang when Jeff Dean announced some impressive results using reduced precision deep learning models for inference.  For embedded and edge applications of deep learning models, reduced precision inference is a big deal.  A brief primer is that model size is reduced by four times since normally single precision uses 32 bits per value.  The power draw is significantly reduced as 16 bit arithmetic is nearly two times as fast and memory transfers can account for the majority of the power budget.   
 
 ![JeffDeanInference]({{ site.url }}/assets/jeffDeanEVS.jpg)
 *Jeff Dean on the power and flexibility of deep learning* 
 
-In this blog post, I'll present a complementary tutorial on training in 16 bits (floating point 16 bits aka FP16) on the [Jetson TX1][TX1], which delivers nearly a 2x performance increase.  Notably, 16 bit arithmetic is supported natively on the TX1 (via “SIMD” FP16 FMA, i.e. FP16 x2)
+In this blog post, I'll present a complementary tutorial on inference in 16 bits (floating point 16 bits aka FP16) on the [Jetson TX1][TX1], which delivers nearly a 2x performance increase.  Notably, 16 bit arithmetic is supported natively on the TX1 (via “SIMD” FP16 FMA, i.e. FP16 x2)
 and is an excellent feature preview for developing on the Pascal architecture within the Supercomputer-in-a-Box [DGX-1][DGX].
 
 ![fp16]({{ site.url }}/assets/FP16.png)
@@ -52,20 +52,23 @@ cd nvcaffe
 make -j 4
 {% endhighlight %}
 
-That's it.  Make sure your data is structured correctly, eg. [BVLC ImageNet recommendations][bvlcAlexnet].  Now, you can run a training as follows:
+That's it.  Now, you can run the forward pass as follows:
 
 {% highlight bash %}
-./build/tools/caffe_fp16 train --solver=models/bvlc_reference_caffenet/solver.prototxt -gpu 0
+./build/tools/caffe_fp16 time --model=models/bvlc_alexnet/deploy.prototxt -gpu 0 -iterations 100
 {% endhighlight %}
 
-This will enable users to explore the high throughput  world of FP16 training. One should carefully check convergence for a network, and techniques such as batch normalization will be valuable to scale values within the coverage in FP16.
+This will enable users to explore the high throughput  world of FP16.  For more realistic inference scenarios, reduce your minibatch size to 1 by editing the deploy.prototxt input shape from 10 to 1, which further increases your forward pass speed. 
 
-Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].  Other interesting tutorials are [model fine tuning][modelTune] in our graphical [Deep Learning GPU training system DIGITS][digits].  Powerful as it is, the TX1 is not meant to train on massive datasets. It's big brother the [DGX-1][DGX] is a perfect companion.
+![fwd]({{ site.url }}/assets/jetsontx1fwd.png)
+*A few zippy roundtrip and layerwise numbers in AlexNet*
+
+Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].  Other interesting tutorials are [model fine tuning][modelTune] in our graphical [Deep Learning GPU training system DIGITS][digits].  Powerful as it is, the TX1 is not meant to handle massive datasets. It's big brother the [DGX-1][DGX] is a perfect companion.
 
 ![dgx]({{ site.url }}/assets/dgx1.jpg)
 
 
-*The DGX-1: world's first supercomputer in a box is slightly harder to integrate into your embedded platform*
+*The DGX-1: world's first supercomputer in a box is slightly harder to fit onto your embedded platform*
 
 
 [digits]: https://github.com/NVIDIA/DIGITS
