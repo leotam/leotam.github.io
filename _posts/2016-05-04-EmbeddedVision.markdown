@@ -46,6 +46,8 @@ That's it.  Now, you can run a training as follows:
 
 Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].
 
+[TX1]: http://www.nvidia.com/object/jetson-tx1-module.html
+[EVS]: http://www.embedded-vision.com/summit/agenda
 [bvlcHome]: http://bvlc.eecs.berkeley.edu/
 [jetpack]:https://developer.nvidia.com/embedded/jetpack
 [syspro]:https://developer.nvidia.com/embedded/tegra-system-profiler
