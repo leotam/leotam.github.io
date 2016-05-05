@@ -47,7 +47,7 @@ That's it.  Make sure your data is structured correctly, eg. [BVLC ImageNet reco
 
 This will enable users to explore the high throughput  world of FP16 training. One should carefully check convergence for a network, and techniques such as batch normalization will be valuable to scale values within the coverage in FP16.
 
-Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].  Other interesting tutorials are [model fine tuning][modelTune] in our graphical [Deep Learning GPU training system DIGITS][digits] (powerful as it is,the TX1 is not meant to train on massive datasets – it's big brother the [DGX-1][DGX] is a perfect companion).
+Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].  Other interesting tutorials are [model fine tuning][modelTune] in our graphical [Deep Learning GPU training system DIGITS][digits] (powerful as it is,the TX1 is not meant to train on massive datasets. It's big brother the [DGX-1][DGX] is a perfect companion).
 
 [digits]: https://github.com/NVIDIA/DIGITS
 [modelTune]: https://github.com/NVIDIA/DIGITS/tree/master/examples/fine-tuning
