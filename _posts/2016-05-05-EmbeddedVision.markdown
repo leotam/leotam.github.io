@@ -18,7 +18,7 @@ The [2016 Embedded Vision Summit][EVS] recently took place in the heart of Silic
 *Jeff Dean on the power and flexibility of deep learning* 
 
 In this blog post, I'll present a complementary tutorial on training in 16 bits (floating point 16 bits aka FP16) on the [Jetson TX1][TX1], which delivers nearly a 2x performance increase.  Notably, 16 bit arithmetic is supported natively on the TX1 (via “SIMD” FP16 FMA, i.e. FP16 x2)
-and is an excellent feature preview for developing on the upcoming Pascal architecture within the Supercomputer-in-a-Box [DGX-1][DGX].
+and is an excellent feature preview for developing on the Pascal architecture within the Supercomputer-in-a-Box [DGX-1][DGX].
 
 ![fp16]({{ site.url }}/assets/FP16.png)
 
