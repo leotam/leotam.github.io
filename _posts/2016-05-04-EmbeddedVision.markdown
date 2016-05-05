@@ -9,6 +9,7 @@ The [2016 Embedded Vision Summit][EVS] recently took place in the heart of Silic
 
 ![JeffDeanInference]({{ site.url }}/assets/JeffDean8BitIntegerInference.jpg)
 
+
 In this blog post, I'll present a complementary tutorial on training in 16 bits on the [Jetson TX1][TX1], which delivers nearly a 2x performance increase.  Notably, 16 bit arithmetic is supported natively on the TX1 and is an excellent feature preview for developing on the upcoming Pascal architecture, eg. the Supercomputer-in-a-Box [DGX-1][DGX].
 
 First, grab the latest image for your TX1 through [Jetpack][jetpack].  NVIDIA provides the software free of charge and it's packed with goodies such as [VisionWorks][VS], [System Profiler][syspro], and [OpenCV4Tegra][opencvTegra].  If you choose to flash the image, this will displace your current system.  When prompted, install all the included packages.  The TX1 runs a full-fledge Linux kernel.  Start a terminal and check 
@@ -46,6 +47,7 @@ That's it.  Now, you can run a training as follows:
 
 Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper]
 
+[DGX]: http://www.nvidia.com/object/deep-learning-system.html
 [TX1]: http://www.nvidia.com/object/jetson-tx1-module.html
 [EVS]: http://www.embedded-vision.com/summit/agenda
 [bvlcHome]: http://bvlc.eecs.berkeley.edu/
