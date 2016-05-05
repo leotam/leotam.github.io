@@ -25,7 +25,7 @@ sudo apt-get update
 sudo apt-get install aptitude screen git g++ cmake libboost-all-dev libgflags-dev libgoogle-glog-dev protobuf-compiler libprotobuf-dev bc libblas-dev libatlas-dev libhdf5-dev libleveldb-dev liblmdb-dev libsnappy-dev libatlas-base-dev python-numpy libgflags-dev libgoogle-glog-dev
 {% endhighlight %}
 
-Once those are installed, snag the FP16 enabled branch from the NVIDIA Caffe branch.
+Once those are installed, snag the FP16 enabled tree from the NVIDIA Caffe branch.
 
 {% highlight bash %}
 cd ~
@@ -45,7 +45,7 @@ That's it.  Make sure your data is structured correctly, eg. [BVLC ImageNet reco
 ./build/tools/caffe_fp16 train --solver=models/bvlc_reference_caffenet/solver.prototxt -gpu 0
 {% endhighlight %}
 
-This will enable users to explore the high thoroughput world of FP16 training. One should carefully check convergence for their network, and techniques such as batch normalization will be valuable to scale values within the coverage in FP16.
+This will enable users to explore the high throughput  world of FP16 training. One should carefully check convergence for their network, and techniques such as batch normalization will be valuable to scale values within the coverage in FP16.
 
 Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].
 
