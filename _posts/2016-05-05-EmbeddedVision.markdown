@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FP16 Training on Embedded"
-date:   2016-05-05 15:00:00
+date:   2016-05-04 15:00:00
 categories: general
 ---
 
