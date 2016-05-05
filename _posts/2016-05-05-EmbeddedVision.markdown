@@ -45,7 +45,7 @@ That's it.  Make sure your data is structured correctly, eg. [BVLC ImageNet reco
 ./build/tools/caffe_fp16 train --solver=models/bvlc_reference_caffenet/solver.prototxt -gpu 0
 {% endhighlight %}
 
-This will enable users to explore the high throughput  world of FP16 training. One should carefully check convergence for their network, and techniques such as batch normalization will be valuable to scale values within the coverage in FP16.
+This will enable users to explore the high throughput  world of FP16 training. One should carefully check convergence for a network, and techniques such as batch normalization will be valuable to scale values within the coverage in FP16.
 
 Special thanks to Jeff Dean for suggesting the topic of this post and the [BVLC group][bvlcHome].  For more information, read the [Jetson TX1 whitepaper][whitepaper].
 
