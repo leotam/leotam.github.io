@@ -25,13 +25,9 @@ and is an excellent feature preview for developing on the Pascal architecture wi
 
 *The IEEE 754 half-precision floating-point format with 16 binary bits*
 
-First, grab the latest image for your TX1 through [Jetpack][jetpack].  NVIDIA provides the software free of charge and it's packed with goodies such as [VisionWorks][VS], [System Profiler][syspro], and [OpenCV4Tegra][opencvTegra].  If you choose to flash the image, this will displace your current system.  When prompted, install all the included packages.  The TX1 runs a full-fledged Linux kernel.  Start a terminal and check 
+First, grab the latest image for your TX1 through [Jetpack][jetpack].  NVIDIA provides the software free of charge and it's packed with goodies such as [VisionWorks][VS], [System Profiler][syspro], and [OpenCV4Tegra][opencvTegra].  If you choose to flash the image, this will displace your current system.  When prompted, install all the included packages.  
 
-{% highlight bash %}
-uname -a
-{% endhighlight %}
-
-returns a recent date.  Note, the power of the NVIDIA libraries allow high level API access to FP16 features.  Namely, [cuDNN][cuDNN] library version 3 introduced FP16 storage (activation values) and version 4 introduced arithmetic for convolutions.  Let's proceed by installing the relevant dependencies.
+Note, the power of the NVIDIA libraries allow high level API access to FP16 features.  Namely, [cuDNN][cuDNN] library version 3 introduced FP16 storage (activation values) and version 4 introduced arithmetic for convolutions.  Let's proceed by installing the relevant dependencies.
 
 {% highlight bash %}
 sudo apt-get update
