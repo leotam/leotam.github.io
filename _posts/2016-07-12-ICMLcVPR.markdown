@@ -11,7 +11,7 @@ The International Conference on Machine Learning (ICML) and Computer Vision and 
 
 ## ICML
 
-![timesSq]({{ site.url }}/assets/timesSq.jpg)
+<img src="http://leotam.github.io/assets/timesSq.jpg" width="200" height="266" />
 *Set in Times Square, it was a trivial task to screen out the constant flood of tourists with great research in the forefront.
 
 In general, ICML felt intimate (despite significant growth) and top researchers were accessible for informal ad-hoc conversations and brainstorming.  It's probably an inflection point before this conference gets too crowded.
@@ -84,7 +84,7 @@ ResNets are now everywhere.  The community has overcome any difficulty in traini
 
 Training Region-based Object Detectors with Online Hard Example Mining to improve CNN object detection from Facebook AI (<https://arxiv.org/abs/1604.03540>) stirred some memories.  My group had used hard positive mining to improve classifcation of retinal images (presentation [here][GTCretinopathy]).
 
-![nvShirts]({{ site.url }}/assets/NVtshirtICML.jpg =500x)
+<img src="http://leotam.github.io/assets/NVtshirtICML.jpg" width="200" height="266" />
 *The NVIDIA T-shirt.  Adam Nash on the importance of a good t-shirt: <https://blog.adamnash.com/2010/11/29/why-t-shirts-matter/*
 
 Here's another good CVPR 2016 summary from a [Quora post][quora].  OK! That was a few more than 10 papers, but the field is moving fast.
