@@ -11,7 +11,7 @@ The International Conference on Machine Learning (ICML) and Computer Vision and 
 
 ## ICML
 
-<img src="http://leotam.github.io/assets/timesSq.jpg" width="400" height="532" />
+<img src="http://leotam.github.io/assets/timesSq.jpg" width="400" height="532" align="middle"/>
 
 *Set in Times Square, it was a trivial task to screen out the constant flood of tourists with great research in the forefront.*
 
@@ -75,7 +75,7 @@ Single Shot Detection squared off against You Only Look Once. (<http://arxiv.org
 LocNet is used to improve bounding box accuracy.  Next time, you're inspecting an object detection demo, pay attention to the tightness of the bounding box!
 <https://github.com/gidariss/LocNet>
 
-<img src="http://leotam.github.io/assets/andreyJustin.png" width="400" height="300" />
+<img src="http://leotam.github.io/assets/andreyJustin.png" width="400" height="300" align="middle"/>
 
 *Hopefully, this dynamic duo will continue their collaborations!*
 
@@ -86,7 +86,7 @@ ResNets are now everywhere.  The community has overcome any difficulty in traini
 
 Training Region-based Object Detectors with Online Hard Example Mining to improve CNN object detection from Facebook AI (<https://arxiv.org/abs/1604.03540>) stirred some memories.  We had used hard positive mining to improve classifcation of retinal images (presentation [here][GTCretinopathy]).
 
-<img src="http://leotam.github.io/assets/NVtshirtICML.jpg" width="400" height="532" />
+<img src="http://leotam.github.io/assets/NVtshirtICML.jpg" width="400" height="532" align="middle"/>
 
 *The NVIDIA T-shirt.  Adam Nash on the importance of a good t-shirt: <https://blog.adamnash.com/2010/11/29/why-t-shirts-matter/>*
 
