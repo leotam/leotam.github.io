@@ -64,7 +64,7 @@ CVPR of course has a different focus, namely applications of computer vision thr
 ### Top papers and presentations
 
 Jiwon Kim's Deeply-Recursive Convolutional Network for Image Super-Resolution 
-Provided some perhaps well-known tips on training such as gradient clipping and learning rate annealing.
+provided some perhaps well-known tips on training such as gradient clipping and learning rate annealing.
 <http://arxiv.org/abs/1511.04491>
 
 There were a few interesting new layer types such as
