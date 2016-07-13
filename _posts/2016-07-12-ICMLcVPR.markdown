@@ -36,7 +36,7 @@ Related work: <http://arxiv.org/abs/1301.3584>
 G-convs as a drop-in replacement for standard convs, consistent improvements in accuracy and ties to Lie algebra.
 <https://staff.fnwi.uva.nl/m.welling/wp-content/uploads/papers/icml2016_GCNN.pdf>
 
-Stacked what-where autoencoders reducing sampling during training and tested on open dataset.  On GitHub here: <https://github.com/YutingZhang/caffe-recon-dec>
+Stacked what-where autoencoders reducing sampling during training and tested on an open dataset.  On GitHub here: <https://github.com/YutingZhang/caffe-recon-dec>
 <https://arxiv.org/abs/1506.02351>
 
 Concatented ReLUs as an easily implemented, low cost layer improvement
