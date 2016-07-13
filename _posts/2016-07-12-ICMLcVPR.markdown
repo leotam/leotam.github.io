@@ -22,7 +22,7 @@ In general, ICML felt intimate (despite significant growth) and top researchers 
 Kaiming He's Deep Residual Networks tutorial revealed tips and tricks for training ultra-deep residual networks.  First presented at ICCV 2015 where he did his first victory lap for winning the 2015 ImageNet competition, Kaiming kept it interesting with a few neat points. For instance, cutting out to a video demonstrating the layer by layer variance visualization.  CVPR would later show that ResNets are incredibly important and experts must reduce it to practice in order to obtain leading results.
 [Kaiming He's ResNet Tutorial][ResNets]
 
-David Silver then gave one of the best presentations on deep reinforcement learning.  It was just the start of great presentations from Google Deepmind spanning the entire week.  He closed the sessions with details from their AlphaGo work.
+As always, David Silver gave one of the best presentations on deep reinforcement learning.  It was just the start of great presentations from Google Deepmind spanning the entire week.  He closed the sessions with details from their AlphaGo work.
 [David Silver's DRL Tutorial][DRL]
 
 For instance, Dueling DQNs for reinforcement learning was uploaded awhile back on arxiv, but still relevant.  Salience maps between advantage and value streams show difference between local and global (equivalently near and far) optimization.  One weakness of the approach are games requiring leaps in strategy exploration.
