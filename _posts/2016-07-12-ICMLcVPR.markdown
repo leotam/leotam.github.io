@@ -78,7 +78,7 @@ LocNet is used to improve bounding box accuracy.  Next time, you're inspecting a
 
 *Hopefully, this dynamic duo will continue their collaborations! <https://arxiv.org/abs/1511.07571> Open source <https://github.com/jcjohnson/densecap>*
 
-Wonmin Byeon presented PyraMiD-LSTMs (first shown at NIPS) had a warm reception here. PyraMiD-LSTMs have one of the top results on medical image segmentation and are highly parallelizable for 3D scans.
+Wonmin Byeon presented PyraMiD-LSTMs (first shown at NIPS) which had a warm reception here. PyraMiD-LSTMs have one of the top results on medical image segmentation and are highly parallelizable for 3D scans.
 <https://arxiv.org/abs/1506.07452>
 
 ResNets are now everywhere.  The community has overcome any difficulty in training them and using them in nearly all top accuracy applications using pre-training or training from scratch.  For instance, they were prevalent in the [Visual Question and Answering][VQA] challenge as seen from the summary of approaches on the [leaderboard][VQAleader].
