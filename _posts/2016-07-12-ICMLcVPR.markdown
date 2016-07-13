@@ -43,7 +43,7 @@ Concatented ReLUs as an easily implemented, low cost layer improvement
 <http://jmlr.org/proceedings/papers/v48/shang16.pdf>
 
 Sashank Reddi presented Stochastic Variance Reduction for Nonconvex Optimization 
-SVRG is emerging as the most promising candidate to supersede stochastic gradient descent.
+SVRG, emerging as the most promising candidate to supersede stochastic gradient descent.
 <http://suvrit.de/papers/nonconvex_svrg.pdf>
 
 Ivo Danihelka presenting associative LSTMs used complex-valued vectors for a general, low cost, and parallelizable way of adding memory to LSTMs for longer recall (for instance to improve performance through noise reduction from multiple copies)
