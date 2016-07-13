@@ -68,7 +68,7 @@ Provided some perhaps well-known tips on training such as gradient clipping and 
 <http://arxiv.org/abs/1511.04491>
 
 There were a few interesting new layer types such as
-Magic Pony's (Wenzhe Shi) Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network, Gaussian Conditional Random Fields (<http://ravitejav.weebly.com/uploads/2/4/7/2/24725306/segmentation.pdf>) in many talks, and dynamic parameter hashing layer (<http://arxiv.org/abs/1511.05756>).
+Magic Pony's (Wenzhe Shi) [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network][magicPony], Gaussian Conditional Random Fields (<http://ravitejav.weebly.com/uploads/2/4/7/2/24725306/segmentation.pdf>) in many talks, and dynamic parameter hashing layer (<http://arxiv.org/abs/1511.05756>).
 
 Single Shot Detection squared off against You Only Look Once. (<http://arxiv.org/abs/1512.02325> and <http://arxiv.org/abs/1506.02640>).
 
@@ -92,6 +92,7 @@ Training Region-based Object Detectors with Online Hard Example Mining to improv
 
 Here's another good CVPR 2016 summary from a [Quora post][quora].  OK! That was a few more than 10 papers, but the field is moving fast.
 
+[magicPony]: http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Shi_Real-Time_Single_Image_CVPR_2016_paper.html
 [gtcSlides]: http://on-demand.gputechconf.com/gtc/2016/presentation/s6516-apaar-sadwhani-images-diabetic-retinopathy.pdf
 [cvprOS]: https://tensortalk.com/?cat=conference-cvpr-2016&t=type-code
 [GTCretinopathy]:  http://on-demand.gputechconf.com/gtc/2016/video/S6516.html
