@@ -7,7 +7,7 @@ categories: general
 
 ![cvprICML]({{ site.url }}/assets/cvprICML.jpg)
 
-The International Conference on Machine Learning (ICML) and Computer Vision and Pattern Recognition (CVPR) 2016 occured back-to-back this year.  In this post, I'll cover some of the most exciting advances in research as experienced from an on-the-ground perspective.  Unsurprisingly, ICML focused more on fundmental research in an intimate setting while CVPR focused on applications research.  Both included copious amounts of deep learning applied to many different areas.
+The International Conference on Machine Learning (ICML) and Computer Vision and Pattern Recognition (CVPR) 2016 occurred back-to-back this year.  In this post, I'll cover some of the most exciting advances in research as experienced from an on-the-ground perspective.  Unsurprisingly, ICML focused more on fundamental research in an intimate setting while CVPR focused on applications research.  Both included copious amounts of deep learning applied to many different areas.
 
 ## ICML
 
@@ -22,7 +22,7 @@ In general, ICML felt intimate (despite significant growth) and top researchers 
 Kaiming He's Deep Residual Networks tutorial revealed tips and tricks for training ultra-deep residual networks.  First presented at ICCV 2015 where he did his first victory lap for winning the 2015 ImageNet competition, Kaiming kept it interesting with a few neat points. For instance, cutting out to a video demonstrating the layer by layer variance visualization.  CVPR would later show that ResNets are incredibly important and experts must reduce it to practice in order to obtain leading results.
 [Kaiming He's ResNet Tutorial][ResNets]
 
-David Silver then gave one of the best presentations on deep reinforcement learning.  It really was just the start of a week of great presentations from Google Deepmind.  He closed the sessions with details and review from their AlphaGo work.
+David Silver then gave one of the best presentations on deep reinforcement learning.  It was just the start of great presentations from Google Deepmind spanning the entire week.  He closed the sessions with details from their AlphaGo work.
 [David Silver's DRL Tutorial][DRL]
 
 For instance, Dueling DQNs for reinforcement learning was uploaded awhile back on arxiv, but still relevant.  Salience maps between advantage and value streams show difference between local and global (equivalently near and far) optimization.  One weakness of the approach are games requiring leaps in strategy exploration.
@@ -33,7 +33,7 @@ Leon Bottou's presentation on accelerating DNN training uses optimization surfac
 <http://arxiv.org/abs/1606.04838>
 Related work: <http://arxiv.org/abs/1301.3584>
 
-G-convs as a drop-in replacement for standard convs, consistents improvments in accuracy and ties to Lie algebra.
+G-convs as a drop-in replacement for standard convs, consistent improvements in accuracy and ties to Lie algebra.
 <https://staff.fnwi.uva.nl/m.welling/wp-content/uploads/papers/icml2016_GCNN.pdf>
 
 Stacked what-where autoencoders reducing sampling during training and tested on open dataset.  On GitHub here: <https://github.com/YutingZhang/caffe-recon-dec>
@@ -43,7 +43,7 @@ Concatented ReLUs as an easily implemented, low cost layer improvement
 <http://jmlr.org/proceedings/papers/v48/shang16.pdf>
 
 Sashank Reddi presented Stochastic Variance Reduction for Nonconvex Optimization 
-SVRG is emerging as the most promising candidate to supercede stochastic gradient descent.
+SVRG is emerging as the most promising candidate to supersede stochastic gradient descent.
 <http://suvrit.de/papers/nonconvex_svrg.pdf>
 
 Ivo Danihelka presenting associative LSTMs used complex-valued vectors for a general, low cost, and parallelizable way of adding memory to LSTMs for longer recall (for instance to improve performance through noise reduction from multiple copies)
