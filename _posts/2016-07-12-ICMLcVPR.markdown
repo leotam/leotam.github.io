@@ -84,7 +84,7 @@ Wonmin Byeon presented PyraMiD-LSTMs (first shown at NIPS) had a warm reception 
 
 ResNets are now everywhere.  The community has overcome any difficulty in training them and using them in nearly all top accuracy applications using pre-training or training from scratch.  For instance, they were prevalent in the [Visual Question and Answering][VQA] challenge as seen from the summary of approaches on the [leaderboard][VQAleader].
 
-Training Region-based Object Detectors with Online Hard Example Mining to improve CNN object detection from Facebook AI (<https://arxiv.org/abs/1604.03540>) stirred some memories.  We had used hard positive mining to improve classifcation of retinal images (presentation [here][GTCretinopathy]).
+Training Region-based Object Detectors with Online Hard Example Mining to improve CNN object detection from Facebook AI (<https://arxiv.org/abs/1604.03540>) stirred some memories.  We had used hard positive mining to improve classifcation of retinal images (presentation [here][GTCretinopathy], slides[here][gtcSlides]).
 
 <img src="http://leotam.github.io/assets/NVtshirtICML.jpg" width="400" height="532" align="middle"/>
 
@@ -92,6 +92,7 @@ Training Region-based Object Detectors with Online Hard Example Mining to improv
 
 Here's another good CVPR 2016 summary from a [Quora post][quora].  OK! That was a few more than 10 papers, but the field is moving fast.
 
+[gtcSlides]: http://on-demand.gputechconf.com/gtc/2016/presentation/s6516-apaar-sadwhani-images-diabetic-retinopathy.pdf
 [cvprOS]: https://tensortalk.com/?cat=conference-cvpr-2016&t=type-code
 [GTCretinopathy]:  http://on-demand.gputechconf.com/gtc/2016/video/S6516.html
 [VQAleader]: http://visualqa.org/roe.html
