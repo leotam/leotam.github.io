@@ -12,7 +12,8 @@ The International Conference on Machine Learning (ICML) and Computer Vision and 
 ## ICML
 
 <img src="http://leotam.github.io/assets/timesSq.jpg" width="400" height="532" />
-*Set in Times Square, it was a trivial task to screen out the constant flood of tourists with great research in the forefront.
+
+*Set in Times Square, it was a trivial task to screen out the constant flood of tourists with great research in the forefront.*
 
 In general, ICML felt intimate (despite significant growth) and top researchers were accessible for informal ad-hoc conversations and brainstorming.  It's probably an inflection point before this conference gets too crowded.
 
@@ -53,7 +54,7 @@ In the meetups surrounding ICML, Leo Dirac from Amazon gave a great talk on DSST
 
 One of the hidden highlights was the systems session at the Friday workshop (for the intrepid few that had enough steam after a full week).  One trend is increasing the accessibility for data scientist use, ie. FBLearnerFlow, ModelDB, and KNime.  Soumith Chintala mentioned in his presentation the aggregate community numbers are the ultimate judge of success for an open source project.  Databricks emphasized Spark is maintained under the Apache Foundation which guarantees stable governance.  Poseidon was presented as an off-shoot of Bosen and Pentuum addressing distributed training by extending Caffe with tests on ILSVRC2012 and ImageNet 22K: <http://arxiv.org/abs/1512.06216>
 
-![feifeiTweet]({{ site.url }}/assets/feifeiTweet.jpg)
+![feifeiTweet]({{ site.url }}/assets/feifeiTweet.png)
 *Well played, well played.  Stanford Professor Feifei Li closed her ICML talk with quite the quip at Trump, who spoke earlier in the day in the same venue.*
 
 ## CVPR
@@ -74,7 +75,8 @@ Single Shot Detection squared off against You Only Look Once. (<http://arxiv.org
 LocNet is used to improve bounding box accuracy.  Next time, you're inspecting an object detection demo, pay attention to the tightness of the bounding box!
 <https://github.com/gidariss/LocNet>
 
-![andreyJustin]({{ site.url }}/assets/andreyJustin.png)
+<img src="http://leotam.github.io/assets/andreyJustin.png" width="400" height="300" />
+
 *Hopefully, this dynamic duo will continue their collaborations!*
 
 Wonmin Byeon presented PyraMiD-LSTMs first shown at NIPS had a warm reception here. PyraMiD-LSTMs have one of the top results on medical image segmentation and are highly parallelizable for 3D scans.
@@ -85,6 +87,7 @@ ResNets are now everywhere.  The community has overcome any difficulty in traini
 Training Region-based Object Detectors with Online Hard Example Mining to improve CNN object detection from Facebook AI (<https://arxiv.org/abs/1604.03540>) stirred some memories.  My group had used hard positive mining to improve classifcation of retinal images (presentation [here][GTCretinopathy]).
 
 <img src="http://leotam.github.io/assets/NVtshirtICML.jpg" width="400" height="532" />
+
 *The NVIDIA T-shirt.  Adam Nash on the importance of a good t-shirt: <https://blog.adamnash.com/2010/11/29/why-t-shirts-matter/>*
 
 Here's another good CVPR 2016 summary from a [Quora post][quora].  OK! That was a few more than 10 papers, but the field is moving fast.
