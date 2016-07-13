@@ -11,3 +11,6 @@ github_username:  leotam
 
 # Build settings
 markdown: kramdown
+
+# Google services
+google_analytics: UA-80714260-1
