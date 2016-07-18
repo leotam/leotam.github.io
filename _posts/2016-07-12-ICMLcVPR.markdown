@@ -25,7 +25,7 @@ Kaiming He's Deep Residual Networks tutorial revealed tips and tricks for traini
 As always, David Silver gave one of the best presentations on deep reinforcement learning.  It was just the start of great presentations from Google Deepmind spanning the entire week.  He closed the sessions with details from their AlphaGo work.
 [David Silver's DRL Tutorial][DRL]
 
-For instance, Dueling DQNs for reinforcement learning was uploaded awhile back on arxiv, but still relevant.  Salience maps between advantage and value streams show difference between local and global (equivalently near and far) optimization.  One weakness of the approach are games requiring leaps in strategy exploration.
+For instance, Dueling DQNs for reinforcement learning was uploaded awhile back on arxiv, but still relevant.  Salience maps between advantage and value streams show difference between local and global (equivalently near and far) optimization.  One weakness of the approach is games requiring leaps in strategy exploration.
 <http://arxiv.org/abs/1511.06581>
 
 Leon Bottou's presentation on accelerating DNN training uses optimization surface curvature information to speedup optimization, descending more quickly where the topology allows.  He showed numerical results confirming his theorems that natural gradient methods allow scaling proportional to weights instead of neurons.
