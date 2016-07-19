@@ -51,7 +51,7 @@ Ivo Danihelka presenting associative LSTMs used complex-valued vectors for a gen
 
 In the meetups surrounding ICML, Leo Dirac from Amazon gave a great talk on DSSTNE at scale.  He gave practical guidelines on scaling limits and referenced Nikko Strom's [work on reducing weight updates][strom].
 
-One of the hidden highlights was the systems session at the Friday workshop (for the intrepid few that had enough steam after a full week).  One trend is increasing the accessibility for data scientist use, ie. FBLearnerFlow, ModelDB, and KNime.  Soumith Chintala mentioned in his presentation the aggregate community numbers are the ultimate judge of success for an open source project.  Databricks emphasized Spark is maintained under the Apache Foundation which guarantees stable governance.  Poseidon was presented as an off-shoot of Bosen and Pentuum addressing distributed training by extending Caffe with tests on ILSVRC2012 and ImageNet 22K: <http://arxiv.org/abs/1512.06216>
+One of the hidden highlights was the systems session at the Friday workshop (for the intrepid few that had enough steam after a full week).  One trend is increasing the accessibility for data scientist use, ie. [FBLearnerFlow][fbflow], [ModelDB][modeldb], and [KNIME][knime].  Soumith Chintala mentioned in his presentation the aggregate community numbers are the ultimate judge of success for an open source project.  Databricks emphasized Spark is maintained under the Apache Foundation which guarantees stable governance.  Poseidon was presented as an off-shoot of Bosen and Pentuum addressing distributed training by extending Caffe with tests on ILSVRC2012 and ImageNet 22K: <http://arxiv.org/abs/1512.06216>
 
 ![feifeiTweet]({{ site.url }}/assets/feifeiTweet.png)
 *Well played, well played.  Stanford Professor Feifei Li closed her ICML talk with quite the quip at Trump, who spoke earlier in the day in the same venue.*
@@ -91,6 +91,9 @@ Training Region-based Object Detectors with Online Hard Example Mining to improv
 
 Here's another good CVPR 2016 summary from a [Quora post][quora].  OK! That was a few more than 10 papers, but the field is moving fast.
 
+[fbflow]: https://code.facebook.com/posts/1072626246134461/introducing-fblearner-flow-facebook-s-ai-backbone/
+[knime]: https://www.knime.org/
+[modeldb]: http://istc-bigdata.org/index.php/modeldb-a-system-for-managing-machine-learning-models/
 [magicPony]: http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Shi_Real-Time_Single_Image_CVPR_2016_paper.html
 [strom]: http://www.nikkostrom.com/publications/interspeech2015/strom_interspeech2015.pdf
 [gtcSlides]: http://on-demand.gputechconf.com/gtc/2016/presentation/s6516-apaar-sadwhani-images-diabetic-retinopathy.pdf
