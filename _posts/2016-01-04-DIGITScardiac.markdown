@@ -11,7 +11,11 @@ DiGITS is a graphical interface with handy real-time visualization of model trai
 
 We run a number of preprocessing scripts to extract the data from DICOM format using [pydicom][pydicom].  Before running the scripts, copy a skeleton directory structure to destination folder via a terminal, eg. 
 
+{% highlight bash %}
+
 sudo find -type d -links 2 -exec mkdir -p "/raid/leo/cardiac/trainDigits/{}" \;
+
+{% endhighlight %}
 
 Run this in the folder that you've put all your training images, eg. /raid/leo/cardiac/train.  Now run the preprocessing [script][preproc] which will extract frames of 27 cardiac MR images, nearly representing a cardiac cycle, and reshape them into a single image composed of 3x3 tiles x3 channels (false RGB).  Make sure to change data paths on lines 165-172 to match your file system.
 
