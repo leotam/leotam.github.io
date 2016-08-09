@@ -93,14 +93,18 @@ def matpow(M, n):
         return tf.matmul(M, matpow(M, n-1))
 
 t1 = datetime.datetime.now()
-with tf.Session("grpc://192.168.555.254:2500") as sess:
-    with tf.device("/job:worker/task:0/gpu:0"):
-        A = np.random.rand(1e2, 1e2).astype('float32')
-        c1 = matpow(A,n)
-    with tf.device("/job:worker/task:1/gpu:1"):
-        B = np.random.rand(1e2, 1e2).astype('float32')
-        c2 = matpow(B,n)
+
+with tf.device("/job:worker/task:0/gpu:0"):
+    A = np.random.rand(1e2, 1e2).astype('float32')
+    c1 = matpow(A,n)
+
+with tf.device("/job:worker/task:1/gpu:1"):
+    B = np.random.rand(1e2, 1e2).astype('float32')
+    c2 = matpow(B,n)
+
+with tf.Session("grpc://192.168.555.254:2500") as sess:        
     sum = c1 + c2  
+
 t2 = datetime.datetime.now()
 print "Multi node computation time: " + str(t2-t1)
 {% endhighlight %}
@@ -109,12 +113,12 @@ We've just used the *with tf.device* command as usual to explicitly execute aspe
 
 Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their multi-GPU code][cifar10gpu] for multi-node, multi-GPU training.
 
-If you want to learn more, there are several [distributed DL talks][gtcDist] at our GPU Technology conference ([register][regGTC]).  For any questions regarding distributed TensorFlow, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the [TF developers][tfDevs].  
+If you want to learn more, there are several [distributed DL talks][gtcDist] at our GPU Technology conference ([link][regGTC]).  For any questions regarding distributed TensorFlow, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the [TF developers][tfDevs].  
 
 [googleInception]: https://github.com/tensorflow/models/tree/master/inception
 [nvCompute]: https://developer.nvidia.com/cuda-gpus
 [ramGuide]: http://ramhiser.com/2016/01/05/installing-tensorflow-on-an-aws-ec2-instance-with-gpu-support/
-[regGTC]: https://gputechconf.smarteventscloud.com/portal/registration/leot21673
+[regGTC]: http://www.gputechconf.com/
 [gtcDist]: http://registration.gputechconf.com/quicklink/3FfciVD
 [tfDevs]: https://www.tensorflow.org/about.html
 [warpCTC]: https://github.com/baidu-research/warp-ctc
