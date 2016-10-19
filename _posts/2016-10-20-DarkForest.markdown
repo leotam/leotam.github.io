@@ -21,7 +21,7 @@ With minimal adaptation, the axioms apply to adversarial machine learning.  Name
 
 2. When ML models are subject to advesarial probing, it's possible to improve the robustness of the model. <https://arxiv.org/abs/1412.6572>
 
-3. Through transfer learning, one may increase the model robustness of a similar model, for example through: <https://arxiv.org/abs/1412.6572> or <http://papers.nips.cc/paper/5423-generative-adversarial>. 
+3. Through probing, one may increase the model robustness of a similar model, for example through: <https://arxiv.org/abs/1412.6572> or <http://papers.nips.cc/paper/5423-generative-adversarial>. 
 
 The result is a Dark Forest equilibrium for machine learning.  For a foundational treatment of adversarial game theory, please refer to [John Nash's thesis][nashThesis] (yes, it's that short).  Some implications are summarized.
 
