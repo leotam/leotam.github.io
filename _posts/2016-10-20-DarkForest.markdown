@@ -7,7 +7,7 @@ categories: general
 
 In Liu CiXin's novel, "The Dark Forest" he devises a solution to [Fermi's paradox][fermi] based on three axioms of extraterrestrial contact.
 
-<img src="http://leotam.github.io/assets/darkForest.jpg" width="400" height="532" align="middle"/>
+<img src="http://leotam.github.io/assets/darkForest.jpg" width="300" height="432" align="middle"/>
 
 1. The Universe is a dark forest where many civilizations reside, unaware of the others' location.
 
@@ -29,7 +29,7 @@ The world of ML is subjected to the Dark Forest situation.  Web crawlers as empl
 
 There are two solutions to 'survive' the Dark Forest situation.  The obvious solution is through isolation, i.e. for each company only an internal ML model may be deployed.  The second solution is the traveler's model, i.e. to continuously adjust parameters through active learning (retraining) of the network.
 
-A cogent description of the Dark Forest solution to Fermi's paradox is given here <http://philosophy.stackexchange.com/questions/18127/dark-forest-postulate-used-to-explain-the-fermi-paradox>.  
+A cogent description of the Dark Forest solution to Fermi's paradox is here <http://philosophy.stackexchange.com/questions/18127/dark-forest-postulate-used-to-explain-the-fermi-paradox>.  
 
 This blog post is solely my own and does not necessarily represent the views of NVIDIA corp.
 
