@@ -17,13 +17,13 @@ In Liu CiXin's novel, "The Dark Forest" he devises a solution to [Fermi's parado
 
 With minimal adaptation, the axioms apply to adversarial machine learning.  Namely:
 
-1. Machine learning models, when exposed, are subject to adversarial probing <https://arxiv.org/abs/1312.6199>
+1. Machine learning models, when exposed, are subject to adversarial probing. <https://arxiv.org/abs/1312.6199>
 
 2. When ML models are subject to advesarial probing, it's possible to improve the robustness of the model. <https://arxiv.org/abs/1412.6572>
 
 3. Through transfer learning, one may increase the model robustness of a similar model, for example through: <https://arxiv.org/abs/1412.6572> or <http://papers.nips.cc/paper/5423-generative-adversarial>. 
 
-The result is a Dark Forest equilibrium for machine learning.  For a foundational treatment of adversarial game theory, please refer to [John Nash's thesis][nashThesis] (yes, it's that short).  Some implications are summarized below.
+The result is a Dark Forest equilibrium for machine learning.  For a foundational treatment of adversarial game theory, please refer to [John Nash's thesis][nashThesis] (yes, it's that short).  Some implications are summarized.
 
 The world of ML is subjected to the Dark Forest situation.  Web crawlers as employed by hyperscale web companies (Google, Baidu, Yahoo (maybe), Tencent, etc.) become hunters in cyberspace searching for ML models.  When discovering ML models, their reasonable course of action is to adversarially mine information from the ML model to increase the robustness of one's own model.
 
@@ -31,7 +31,7 @@ There are two solutions to 'survive' the Dark Forest situation.  The obvious sol
 
 A cogent description of the Dark Forest solution to Fermi's paradox is given here <http://philosophy.stackexchange.com/questions/18127/dark-forest-postulate-used-to-explain-the-fermi-paradox>.  
 
-This blog post is soley my own and does not necessarily represent the views of NVIDIA corp.
+This blog post is solely my own and does not necessarily represent the views of NVIDIA corp.
 
 [fermi]: https://en.wikipedia.org/wiki/Fermi_paradox
 [nashThesis]: http://www.princeton.edu/mudd/news/faq/topics/Non-Cooperative_Games_Nash.pdf
