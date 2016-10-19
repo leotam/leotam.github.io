@@ -13,7 +13,7 @@ In Liu Ci-Xin's novel, "The Dark Forest" he devises a solution to [Fermi's parad
 
 2. Each civilization with sufficiently advanced technology for interstellar travel has experienced an (exponential) technological explosion. 
 
-3. Upon discovering another civilizaton, a civilization must necessarily annihilate the discovered population, in fear of (2) and the possibility of mutually assured destruction (being left behind).
+3. Upon discovering another civilization, a civilization must necessarily annihilate the discovered population, in fear of (2) and the possibility of mutually assured destruction (being left behind).
 
 With minimal adaptation, the axioms apply to adversarial machine learning.  Namely:
 
