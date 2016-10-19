@@ -23,13 +23,13 @@ With minimal adaptation, the axioms apply to adversarial machine learning.  Name
 
 3. Through transfer learning, one may increase the model robustness of a similar model, for example through: <https://arxiv.org/abs/1412.6572> or <http://papers.nips.cc/paper/5423-generative-adversarial>. 
 
-The result is a Dark Forest equilibrium for machine learning.  For full treatement of adversarial game theory, please refer to [John Nash's thesis][nashThesis] (yes, it's that short, are you jealous?).  Some implications are summarized below.
+The result is a Dark Forest equilibrium for machine learning.  For a foundational treatment of adversarial game theory, please refer to [John Nash's thesis][nashThesis] (yes, it's that short).  Some implications are summarized below.
 
 The world of ML is subjected to the Dark Forest situation.  Web crawlers as employed by hyperscale web companies (Google, Baidu, Yahoo (maybe), Tencent, etc.) become hunters in cyberspace searching for ML models.  When discovering ML models, their reasonable course of action is to adversarially mine information from the ML model to increase the robustness of one's own model.
 
 There are two solutions to 'survive' the Dark Forest situation.  The obvious solution is through isolation, i.e. for each company only an internal ML model may be deployed.  The second solution is the traveler's model, i.e. to continuously adjust parameters through active learning (retraining) of the network.
 
-A more lucid description of the Dark Forest solution to Fermi's paradox <http://philosophy.stackexchange.com/questions/18127/dark-forest-postulate-used-to-explain-the-fermi-paradox>.  
+A cogent description of the Dark Forest solution to Fermi's paradox is given here <http://philosophy.stackexchange.com/questions/18127/dark-forest-postulate-used-to-explain-the-fermi-paradox>.  
 
 This blog post is soley my own and does not necessarily represent the views of NVIDIA corp.
 
