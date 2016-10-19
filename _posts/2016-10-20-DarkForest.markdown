@@ -5,7 +5,7 @@ date:   2016-10-20 08:00:00
 categories: general
 ---
 
-In Liu Ci-Xin's novel, "The Dark Forest" he devises a solution to [Fermi's paradox][fermi] based on three axioms of extraterrestrial contact.
+In Liu CiXin's novel, "The Dark Forest" he devises a solution to [Fermi's paradox][fermi] based on three axioms of extraterrestrial contact.
 
 <img src="http://leotam.github.io/assets/darkForest.jpg" width="400" height="532" align="middle"/>
 
