@@ -19,7 +19,7 @@ With minimal adaptation, the axioms apply to adversarial machine learning.  Name
 
 1. Machine learning models, when exposed, are subject to adversarial probing. <https://arxiv.org/abs/1312.6199>
 
-2. When ML models are subject to advesarial probing, it's possible to improve the robustness of the model. <https://arxiv.org/abs/1412.6572>
+2. When ML models are subject to adversarial probing, it's possible to improve the robustness of the model. <https://arxiv.org/abs/1412.6572>
 
 3. Through probing, one may increase the model robustness of a similar model, for example through: <https://arxiv.org/abs/1412.6572> or <http://papers.nips.cc/paper/5423-generative-adversarial>. 
 
