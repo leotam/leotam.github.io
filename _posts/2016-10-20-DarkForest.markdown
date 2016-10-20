@@ -33,7 +33,7 @@ A cogent description of the Dark Forest solution to Fermi's paradox is here <htt
 
 This blog post is solely my own and does not necessarily represent the views of NVIDIA corp.
 
-Note, Ian Goodfellow notes that the analogy is imperfect as not every model is in conflict (ecological niche addendum?).
+PS. Ian Goodfellow notes that the analogy is imperfect as not every model is in conflict (ecological niche addendum?).
 
 [fermi]: https://en.wikipedia.org/wiki/Fermi_paradox
 [nashThesis]: http://www.princeton.edu/mudd/news/faq/topics/Non-Cooperative_Games_Nash.pdf
