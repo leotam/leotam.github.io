@@ -7,7 +7,10 @@ categories: general
 
 In Liu CiXin's novel, "The Dark Forest" he devises a solution to [Fermi's paradox][fermi] based on three axioms of extraterrestrial contact.
 
-<img src="http://leotam.github.io/assets/darkForest.jpg" width="300" height="432" align="middle"/>
+[![alt text][2]][1]
+
+  [1]: https://www.amazon.com/Dark-Forest-Remembrance-Earths-Past/dp/0765386690&ad_type=product_link&tracking_id=ltamgithub-20&marketplace=amazon&region=US&placement
+  [2]: http://leotam.github.io/assets/darkForest.jpg (hover text)
 
 1. The Universe is a dark forest where many civilizations reside, unaware of the others' location.
 
