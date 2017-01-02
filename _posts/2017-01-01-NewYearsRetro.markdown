@@ -7,7 +7,7 @@ categories: general
 
 It's been a full year here at NVIDIA and now seems as good a time as any to reflect.  The developments and pace of the deep learning research field has been incredible and is well-characterized by the [NVIDIA deep learning blog][nvblog].  I wanted to take a little time to delve into the perhaps underappreciated world of Solution Architects (SAs), the group with whom I caucus.
 
-<img src="http://leotam.github.io/assets/yearDL.png" width="300" height="432" align="middle"/>
+![dgx]({{ site.url }}/assets/yearDL.png)
 
 For a high level perspective, [SA VP Marc Hamilton's blog][marc] illustrates the challenges of SA management.  There are numerous and often underpublicized instances of SAs working to provide technical assistance.  One exemplar is long-time NVIDIA veteran [Bob Crovella on Stack Overflow][bobstack], who tirelessly answers CUDA related questions.  A quick poll of the NVIDIA SAs in North America indicate ~27.4% have PhDs and all salt of the earth.  Namely, SAs are externally facing technical resources often with experience from a previous field or vertical, e.g. medical, oil and gas, media and entertainment, high performance computing, etc.  They correspond with an external technical resource on proof of concepts and technological integrations to ensure a satisfying implementation.  The shared knowledge base among SAs (with appropriate Chinese walls) is a critical advantage.  There are SAs at many tech firms in the Valley including Akamai, Salesforce, Cisco, Cloudera, Verizon, HP, IBM, etc. however NVIDIA SAs often have a special bent towards deep learning.  SAs are often on-site and in the field (at least one formerly in the British intelligence, MI6 or other he'd tell me or he'd...)
 
