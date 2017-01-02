@@ -18,7 +18,7 @@ Let's hope 2017 brings as much excitement and advances as 2016.
 
 ![dgx]({{ site.url }}/assets/dgx1.jpg)
 
-<center><emphasis>*If you think this is good, you should pay attention to what's next.*</emphasis></center>
+<center><emphasis>*If you think this is good, let's pay attention to what's next.*</emphasis></center>
 
 [marc]: https://marchamilton.wordpress.com/
 [1bit]: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/IS140694.pdf
