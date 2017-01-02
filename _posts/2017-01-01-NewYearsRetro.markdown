@@ -17,6 +17,7 @@ Recently, I had the opportunity to be in the field for a 79 day European rotatio
 Let's hope 2017 brings as much excitement and advances as 2016.
 
 ![dgx]({{ site.url }}/assets/dgx1.jpg)
+
 <center>*If you think this is good, you should pay attention to what's next.*</center>
 
 [marc]: https://marchamilton.wordpress.com/
