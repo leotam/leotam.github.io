@@ -111,7 +111,7 @@ print "Multi node computation time: " + str(t2-t1)
 
 We've just used the *with tf.device* command as usual to explicitly execute aspects of the computation graph on a device.  The session calls a node and the gRPC protocol handles communication on the cluster seamlessly (remember to paste the correct IP address for your head node).  It's possible to implement more complicated parameter server training paradigms, and Jeff Dean has mentioned they devote a separate parameter server cluster consisting of over 100 nodes just to handle and update neural network weights!
 
-Within the TensorFlow docs is an excellent section on [model parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their multi-GPU code][cifar10gpu] for multi-node, multi-GPU training.
+Within the TensorFlow docs is an excellent section on [data parallel multi-GPU training on CIFAR-10][cifar10].  It's an excellent exercise to modify [their multi-GPU code][cifar10gpu] for multi-node, multi-GPU training.
 
 If you want to learn more, there are several [distributed DL talks][gtcDist] at our GPU Technology conference ([link][regGTC]).  For any questions regarding distributed TensorFlow, please post on [Stack Overflow][so] or the [TF Google group][tfGroup] where Google's excellent team and community will provide assistance.  Many thanks go to [John Ramey][ramey] and the [TF developers][tfDevs].  
 
