@@ -42,7 +42,7 @@ The implication for DL training is that the next level of rapid large models is 
 *NVLink, high-speed GPU interconnect baked into the DGX-1 <http://www.anandtech.com/show/10229/nvidia-announces-dgx1-server>*
 
 ### ADDENDUM
-Furthermore, it's straight-forward to install NCCL on a multi-GPU system to examine communication. For example, after cloning the repository:
+Furthermore, it's straight-forward to install on a multi-GPU system to examine communication. For example, after cloning the repository:
 
 {% highlight bash %}
 cd nccl
