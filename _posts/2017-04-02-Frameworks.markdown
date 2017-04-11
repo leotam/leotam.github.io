@@ -16,16 +16,24 @@ The NCCL library is fundamentally helpful to distributed DL training, which is d
 
 ![modelparallel]({{ site.url }}/assets/modelparallelism.png)
 
-In lockstep, the DL frameworks developers have realized the tremendous value in the NCCL library, rapidly incorporating it.  A list of implementations is here:
+In lockstep, the DL frameworks developers have realized the tremendous value in the NCCL library, rapidly incorporating it.  A list of implementations is:
 
 Caffe: <https://github.com/BVLC/caffe/blob/master/include/caffe/util/nccl.hpp>
+
 Tensorflow: <https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/nccl>
+
 Caffe 2: <https://github.com/caffe2/caffe2/tree/master/caffe2/contrib/nccl>, <https://github.com/caffe2/caffe2/blob/master/caffe2/python/data_parallel_model.py>
+
 CNTK: <https://github.com/Microsoft/CNTK/wiki/Setup-CNTK-on-Linux#optional-nccl>
+
 Theano: <http://deeplearning.net/software/libgpuarray/installation.html?highlight=nccl>
+
 Prototype of Theano for multi-GPU and multi-Node also relies on NCCL: <https://github.com/mila-udem/platoon> 
+
 Torch: <https://github.com/ngimel/nccl.torch>, <https://github.com/NVIDIA/torch-nccl/blob/master/test/testnccl.lua>
+
 Chainer: <https://github.com/pfnet/chainer/pull/2213>
+
 Mxnet: <https://github.com/dmlc/mxnet/pull/5521>
 
 The implication for DL training is that the next level of rapid large models is accelerated at a fundamental mechanistic level.  Rarely does the software tooling match leading implementations due to hyper-focused execution in an application space.  In terms of the hardware, better interconnects, such as NVlink <http://www.nvidia.com/object/nvlink.html>, are great targets for NCCL.
