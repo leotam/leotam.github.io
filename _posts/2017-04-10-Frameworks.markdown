@@ -5,7 +5,7 @@ date:   2017-04-10 23:00:00
 categories: general
 ---
 
-Most deep learning developers find a DL framework invaluable, whether for research or applications.  There's been great retrospective analysis of framework adoption, for example Github activity whether by Jeff Dean for Tensorflow or more broadly frameworks by Francois Chollet.  The topic here is emerging changes – how DL frameworks are distinguishing themselves by incorporating a new tool, the NCCL library and what that means for training DL networks.  Namely, MPI-like GPU collectives are now currently supported by Tensorflow, Caffe 2, Caffe, Theano, Torch, and MxNet to varying degrees for multi-GPU applications
+Most deep learning developers find a DL framework invaluable, whether for research or applications.  There's been great retrospective analysis of framework adoption, for example Github activity whether by Jeff Dean for Tensorflow or more broadly frameworks by Francois Chollet.  The topic here is emerging changes – how DL frameworks are distinguishing themselves by incorporating a new tool, the NCCL library and what that means for training DL networks.  Namely, MPI-like GPU collectives are now currently supported by Tensorflow, Caffe 2, Caffe, Theano, Torch, and MxNet to varying degrees for multi-GPU applications.
 
 ![dlframeworks]({{ site.url }}/assets/dlframeworks-stars2.png)
 *Jeff Dean and Francois Chollet from Google have indicated relevant DL framework statistics for adoption*
