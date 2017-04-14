@@ -12,7 +12,7 @@ Most deep learning developers find a DL framework invaluable, whether for resear
 
 For an excellent introduction to the NVIDIA communication collectives library or NCCL <https://github.com/NVIDIA/nccl>, the NVIDIA developer's post has common uses cases and technical diagrams: <https://devblogs.nvidia.com/parallelforall/fast-multi-gpu-collectives-nccl/>. The U.S. Department of Energy backed the original proposal through the Lawrence Berkeley National Laboratory and in a similar spirit NVIDIA has opensourced the implementation.
 
-The NCCL library is fundamentally helpful to distributed DL training, which is described here (http://leotam.github.io/general/2016/03/13/DistributedTF.html).  Particularly, model-parallelism, that is placing parameters of deep neural networks on separate GPUs, require frequent synchronization. In data parallelism, the broadcast operation may be used distribute an averaged gradient to each of the models.  Tim Dettmers covers how an all reduce is performed to synchronize the weights for each gradient <http://timdettmers.com/2014/10/09/deep-learning-data-parallelism/>. 
+The NCCL library is fundamentally helpful to distributed DL training, which is described here (<http://leotam.github.io/general/2016/03/13/DistributedTF.html>).  Particularly, model-parallelism, that is placing parameters of deep neural networks on separate GPUs, require frequent synchronization. In data parallelism, the broadcast operation may be used distribute an averaged gradient to each of the models.  Tim Dettmers covers how an all reduce is performed to synchronize the weights for each gradient <http://timdettmers.com/2014/10/09/deep-learning-data-parallelism/>. 
 
 ![modelparallel]({{ site.url }}/assets/modelparallelism.png)
 
