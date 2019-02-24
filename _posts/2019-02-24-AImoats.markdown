@@ -26,6 +26,7 @@ We can now map the AI and ML processes that create economic moats around knowled
 2. Quality through quantum leap in performance: modern AI systems have left traditional systems in the dust. AI methods have driven advances that traditionalists previously thought were possible only with decades of work (6)
 
 ![NLPprogress]({{ site.url }}/assets/NLPprogress.PNG)
+
 From: https://minghsiehee.usc.edu/2017/04/the-machines-are-coming/.
 
 3. Scale: As AI pioneers have discovered, the more users and data, the better such systems become.  Competitors face vast worker hours to create vital data lakes that enable AI systems, not to mention physical datacenter infrastructure (7) 
@@ -35,7 +36,7 @@ As an AI leader, we evaluate how Alphabet and its holdings are pursuing an AI fi
 Though the conditions for AI success in enterprise are complex, solutions hinge on laser focussed determination to create a business with an economic moat. As in the example of Coca-Cola, the rewards for successful execution are evident – decades of return and economic premiums.  Buffett claims technology is outside his circle of competence, but his mastery of economic moats means investors from his school will not be left far behind.  In future articles, the details of economic moats in AI will be revealed.
 
 
-### Leonard K. Tam, PhD is an NVIDIA Solutions Architect.  The opinions expressed here do no necessariliy reflect those of NVIDIA Corp.
+#### Leonard K. Tam, PhD is an NVIDIA Solutions Architect.  The opinions expressed here do no necessariliy reflect those of NVIDIA Corp.
 
 NB. Others have touched on the topic of AI and moats (1,2) in varying contexts, but the concept is unpacked in detail here.
 1. https://moiglobal.com/moat17-barr-narhi-ai/
@@ -43,7 +44,7 @@ NB. Others have touched on the topic of AI and moats (1,2) in varying contexts, 
 
 Disclosures: BRK.B shareholder since 2011 and GOOGL shareholder.
 
-### Citations
+#### Citations
 
 1. Crippen, Alex. "CNBC Transcript: Warren Buffett's $200B Berkshire Blunder and the Valuable Lesson He Learned". cnbc.com. CNBC LLC. Retrieved 28 September2018.
 2. https://www.cnbc.com/2014/05/05/buffett-no-desire-to-go-to-war-with-coca-cola.html
