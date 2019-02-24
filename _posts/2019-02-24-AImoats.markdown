@@ -36,7 +36,7 @@ As an AI leader, we evaluate how Alphabet and its holdings are pursuing an AI fi
 Though the conditions for AI success in enterprise are complex, solutions hinge on laser focussed determination to create a business with an economic moat. As in the example of Coca-Cola, the rewards for successful execution are evident – decades of return and economic premiums.  Buffett claims technology is outside his circle of competence, but his mastery of economic moats means investors from his school will not be left far behind.  In future articles, the details of economic moats in AI will be revealed.
 
 
-#### Leonard K. Tam, PhD is an NVIDIA Solutions Architect.  The opinions expressed here do no necessariliy reflect those of NVIDIA Corp.
+Leonard K. Tam, PhD is an NVIDIA Solutions Architect.  The opinions expressed here do no necessariliy reflect those of NVIDIA Corp.
 
 NB. Others have touched on the topic of AI and moats (1,2) in varying contexts, but the concept is unpacked in detail here.
 1. https://moiglobal.com/moat17-barr-narhi-ai/
