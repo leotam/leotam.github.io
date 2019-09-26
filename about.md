@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Leonard, currently at NVIDIA.  I earned my Ph.D. from Yale University working on a method (compressive sensing) to exceed Nyquist sampling limits in MRI given prior information ([my thesis][nlgthesis] had an interesting mix of hardware, signal analysis, and machine learning).  In my spare time, I enjoy SCUBA diving.  Here's a link to my [Google Scholar profile][scholar], which will become increasingly dated the longer residence in industry.
+I'm Leonard, currently at NVIDIA.  I earned my Ph.D. from Yale University working on a method (compressive sensing) to exceed Nyquist sampling limits in MRI given prior information ([my thesis][nlgthesis] had an interesting mix of hardware, signal analysis, and machine learning).  In my spare time, I enjoy SCUBA diving.  Here's a link to my [Google Scholar profile][scholar].
 
 The views expressed here are solely my own. 
 
