@@ -11,7 +11,7 @@ In order to bring referring expressions visual grounding advances to bear, we wo
 
 Previous methods have focused on just the weakly supervised problem, but that has been called into question by the latest CVPR 2020 article <https://arxiv.org/abs/2001.07437>. There simply isn't enough information.
 
-<img src="https://github.com/clovaai/wsolevaluation/blob/master/teaser.png" width="60%" height="60%" title="" alt="RubberDuck"></img>
+<img src="assets/teaser.png" width="60%" height="60%" title=""></img>
 *Choe, J. et. al. calling shennanigans on 5 methods using Class Activation Mapping (CAM). The five methods include data augmentation dropout, adversarial learning, pseudo-labeling, attention dropout, cutmix data data augmentation.*
 
 The excellent folks at MIT and Beth Israel have put together an amazing resource of chest xrays and clinical reports <https://physionet.org/content/mimic-cxr-jpg/2.0.0/>. We leveraged that to add referring expressions, both expertly annotated by our radiologist and automatically parsed using Stanford coreNLP parser.
