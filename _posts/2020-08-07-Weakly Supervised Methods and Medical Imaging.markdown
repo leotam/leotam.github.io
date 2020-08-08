@@ -22,3 +22,15 @@ The excellent folks at MIT and Beth Israel have put together an amazing resource
 Using referring expressions and a combined one-stage vision-language detection architecture, we were able to show improvements over strong weakly supervised baselines, grad CAM which <https://arxiv.org/abs/2001.07437> says are at SOTA.
 
 The architecture and method form a valuable tool to unlock vast stores of data already collected by hospitals and Institutes. It's a promising direction that is parallel to the recommendations from Choe, J. et. al. We release our annotations publicly here: <https://github.com/leotam/MIMIC-CXR-annotations>
+
+'''
+@inproceedings{tamliterati2020,
+        author = {Tam, L.K., Wang, X., Turkbey, E., Lu, K., Wen, Y., Xu, D.},    
+        title = {Weakly supervised one-stage vision and language disease detection using large scale pneumonia and pneumothorax studies},
+        booktitle={Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2020},    
+        year = {2020},    
+        month = {March},    
+        location = {NVIDIA, Santa Clara, CA, USA},     
+        howpublished = {MICCAI 2020},
+}
+'''
