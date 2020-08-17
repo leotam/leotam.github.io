@@ -35,3 +35,6 @@ The architecture and method form a valuable tool to unlock vast stores of data a
         howpublished = {MICCAI 2020},
 }
 ```
+
+Additional reading: <https://arxiv.org/abs/2006.06666>
+
