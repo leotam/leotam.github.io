@@ -4,6 +4,7 @@ title: "Weakly Supervised Methods and Medical Imaging"
 date: 2020-08-07 16:19:00
 categories: general
 ---
+![wsol]({{ site.url }}/assets/WS_title_runner.png)
 
 Our MICCAI work on weakly supervised lung disease detection recently posted to arxiv <https://arxiv.org/abs/2007.15778>.  It treats a serious problem in weakly supervised medical object detection where not enough info is available using only the scene level labels.  Our approach utilizes natural language information in large datasets with paired clinical reports and chest X-rays.
 
