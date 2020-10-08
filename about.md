@@ -9,7 +9,7 @@ I'm Leonard, currently at NVIDIA.  My training is originally in mathematics and 
 <p align="center" width="100%">
     <img width="33%" src="{{ site.url }}/assets/GRdistort.gif"> 
     <div class="myvideo">
-       <video width:33%; height:auto;" autoplay controls loop="loop">
+       <video  style="display:block; width:33%; height:auto;" autoplay controls loop="loop">
            <source src="{{ site.url }}/assets/atpsynthase.ogv" type="video/ogg" />
        </video>
     </div>    
