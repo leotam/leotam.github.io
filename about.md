@@ -7,12 +7,7 @@ permalink: /about/
 I'm Leonard, currently at NVIDIA.  My training is originally in mathematics and physics.  The two most beautiful things I've studied are the physics of ATP synthase and general relativity.
 
 <div class="p" align="center" width="100%">
-    <img width="33%" src="{{ site.url }}/assets/GRdistort.gif"> 
-    <div class="myvideo" width="33%">
-       <video  style="width:33%; height:auto;" autoplay controls loop="loop">
-           <source src="{{ site.url }}/assets/atpsynthase.ogv" type="video/ogg" />
-       </video>
-    </div>    
+    <img width="33%" src="{{ site.url }}/assets/GRdistort.gif">   
 </div>
 
 I earned my Ph.D. from Yale University using nonlinear magnetic gradient fields to exceed Nyquist sampling limits in magnetic resonance imaging ([my thesis][nlgthesis] had an interesting mix of hardware, mathematics, and physics).  
