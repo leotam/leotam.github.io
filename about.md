@@ -8,9 +8,11 @@ I'm Leonard, currently at NVIDIA.  My training is originally in mathematics and 
 
 <p align="center" width="100%">
     <img width="33%" src="{{ site.url }}/assets/GRdistort.gif"> 
-   <video width:33%; height:auto;" autoplay controls loop="loop">
-       <source src="{{ site.url }}/assets/atpsynthase.ogv" type="video/ogg" />
-   </video>
+    <div class="myvideo" width:33%;>
+       <video width:33%; height:auto;" autoplay controls loop="loop">
+           <source src="{{ site.url }}/assets/atpsynthase.ogv" type="video/ogg" />
+       </video>
+    </div>    
 </p>
 
 I earned my Ph.D. from Yale University using nonlinear magnetic gradient fields to exceed Nyquist sampling limits in magnetic resonance imaging ([my thesis][nlgthesis] had an interesting mix of hardware, mathematics, and physics).  
