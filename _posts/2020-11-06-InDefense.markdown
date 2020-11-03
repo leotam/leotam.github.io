@@ -47,8 +47,7 @@ Does the rejection of a private language match the results from AI language mode
 
 Results-based behaviorist reductionism is addressed directly by Wittgenstein in §307.  His argument hinges on while his statements walk in line with a behaviorist interpretation, the argument precedes behaviorist thought in structure. Wittgenstein writes, "Aren't you at bottom really saying that everything except human behavior is fiction? –If I do speak of a fiction, then it is of a grammatical fiction." (§307)  The behaviorist statement is the pith of the Turing test, and Wittgenstein's language games go a step beyond.
 
-![markov]({{ site.url }}/assets/markov.svg.png)
-<img align="center" src="{{ site.url }}/assets/markov.svg.png">
+<div style="text-align:center"><img src="{{ site.url }}/assets/markov.svg.png" /></div>
 *Pre-language infants and many non-human intelligences more resemble state machines governed by markov processes than rational individuals*
 
 ## Outlook
