@@ -58,7 +58,7 @@ In §250, Wittgenstein asks if a dog could simulate pain, "Perhaps it is possibl
 
 <sup>1</sup> "Scientist in the Crib." Gopnik, A., et. al.
 
-<sup>2</sup> https://pubmed.ncbi.nlm.nih.gov/17381794/
+<sup>2</sup> <https://pubmed.ncbi.nlm.nih.gov/17381794/>
 
 <sup>3</sup> H. Karp, 2002.
 
