@@ -61,3 +61,11 @@ In §250, Wittgenstein asks if a dog could simulate pain, "Perhaps it is possibl
 <sup>2</sup> https://pubmed.ncbi.nlm.nih.gov/17381794/
 
 <sup>3</sup> H. Karp, 2002.
+
+NB.
+
+1. [Techcrunch first reported Wittgenstein's theory influencing Google search results by emphasizing context](https://web.archive.org/web/20140417182620/http://www.wired.com/2010/02/ff_google_algorithm/2/)
+
+2. [Additional annotations *Philosophical Investigations*](https://www.pdfdrive.com/the-routledge-guidebook-to-wittgensteins-philosophical-investigations-d186579219.html?fbclid=IwAR3oz6sq-oRMlWVyf0mJor_bvneNZ8xf8aOFvO6nYi7f2befImg01SD7Sek)
+
+3. [Some counterpoint](https://medium.com/the-sophist/wittgenstein-intelligence-is-never-artificial-51933315d1bd)
