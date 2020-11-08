@@ -69,3 +69,5 @@ NB.
 2. [Additional annotations on *Philosophical Investigations*](https://www.pdfdrive.com/download.pdf?id=186579219&h=8224149cb39300735eae1b4a1bde45f6&u=cache&ext=pdf)
 
 3. [Some counterpoint](https://medium.com/the-sophist/wittgenstein-intelligence-is-never-artificial-51933315d1bd)
+
+4. 11.7.2020 – [A professional treatment of Wittgenstein's remarks applied to AI](https://books.google.com/books?id=WeGJAgAAQBAJ&printsec=frontcover&source=gbs_atb#v=onepage&q&f=false) Some arguments presented are similar to the ones here, albeit without the various simplifications for readability, and applications more towards psychology. The treatment dates to the last epoch in AI, though the epistemological arguments hold.
