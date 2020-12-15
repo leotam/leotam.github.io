@@ -15,6 +15,7 @@ CORD-19 is a coronavirus literature dataset published by the Allen Institute, MS
         year = {2020},    
         month = {November},    
         location = {NVIDIA, Santa Clara, CA, USA},     
+        url = {https://arxiv.org/abs/2012.04682},
         howpublished = {ArXiv},
 }
 ```
