@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Leonard, currently at NVIDIA.  My training is originally in mathematics and physics.  The two most beautiful things I've studied are the physics of ATP synthase and general relativity.
+I'm Leonard.  My training is originally in mathematics and physics.  The two most beautiful things I've studied are the physics of ATP synthase and general relativity.
 
 <div class="p" align="center" width="100%">
     <img width="33%" src="{{ site.url }}/assets/GRdistort.gif">   
@@ -18,4 +18,3 @@ The views expressed here are solely my own.
 
 [scholar]:https://scholar.google.com/citations?user=ItNIda0AAAAJ&hl=en&oi=ao
 [nlgthesis]:https://drive.google.com/open?id=1o9w1TSCzuPCTP0rlX_YAasKfAHDMhQFv
-[ivychair]:http://www.brownsv.club/leadership-2
