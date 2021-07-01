@@ -2,9 +2,8 @@
 title: Leo K. Tam Blog
 email: leot@nvidia.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m Leo, Medical Imaging Research Scientist @NVIDIA.
-  Take with a grain of salt some thoughts on DL and related events.
-  The views are solely my own and do not necessarily represent those of NVIDIA corporation.
+  Hi, I’m Leo, Formerly @NVIDIA.
+  Take with a grain of salt some thoughts on AI and related events.
 url: "http://leotam.github.io" # the base hostname & protocol for your site
 twitter_username: LeoKTam
 github_username:  leotam
