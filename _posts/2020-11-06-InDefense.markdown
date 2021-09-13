@@ -7,7 +7,7 @@ categories: general
 ![pain]({{ site.url }}/assets/pain.png)
 *Querying OpenAI's 345M parameter GPT-2 model, [courtesy AllenNLP](https://demo.allennlp.org/next-token-lm?text=What%20did%20you%20do%20before%20you%20felt%20pain%3F).  Wittgenstein has extensive discussions of pain vis-à-vis the possibility of private sensations.  For a significant part of history, infants were not deemed to feel pain in a significant way as they could not express it in language<sup>1</sup>.*
 
-In the measures of AI, Turing's criterion on intelligence, the Turing test, and related computational foundations, the Turing machine, loom large over progress towards a general intelligence.  Given satisfaction for some of Turing's requirements in [recent work](https://arxiv.org/abs/1807.03819), Turing's philosophical contributions may be lateral as contrasted with Wittgenstein's philosophy of language.  In particular, we focus on Wittgenstein's later *Philosophical Investigations*, a manuscript that reads as a collection of first principles koans than a traditional logical elucidation (superseding his earlier *Tractatus Logico-Philosophicus*). As first described by Hofstadter's *Gödel, Escher, Bach*, koans act as a paradigm-shattering inducement to break through the (Gödel) Incompleteness of axiomatic thought, such as the language dimensions that form our experience of the world.  Wittgenstein's work prescribes a path forward for the development of one pillar of general intelligence (in concert with the External World problem and Other Minds paradigm)<sup>2</sup>.
+In the measures of AI, Turing's criterion on intelligence, the Turing test, and related computational foundations, the Turing machine, loom large over progress towards a general intelligence.  Given satisfaction for some of Turing's requirements in [recent work](https://arxiv.org/abs/1807.03819), Turing's philosophical contributions may be lateral as contrasted with Wittgenstein's philosophy of language.  In particular, we focus on Wittgenstein's later [*Philosophical Investigations*](https://amzn.to/3A20Y4F), a manuscript that reads as a collection of first principles koans than a traditional logical elucidation (superseding his earlier [*Tractatus Logico-Philosophicus*](https://amzn.to/3lkpiZf)). As first described by Hofstadter's [*Gödel, Escher, Bach*](https://amzn.to/2XgEle4), koans act as a paradigm-shattering inducement to break through the (Gödel) Incompleteness of axiomatic thought, such as the language dimensions that form our experience of the world.  Wittgenstein's work prescribes a path forward for the development of one pillar of general intelligence (in concert with the External World problem and Other Minds paradigm)<sup>2</sup>.
 
 > What is your aim in philosophy? –To show the fly the way out of the fly bottle.
 
@@ -41,7 +41,7 @@ His analysis indicates inspection of the games and their relation when training 
 
 ## Criticisms
 
-A critical examination of Wittgenstein's ideas isolates his definition and rejection of a private language, which in his thought experiments run contrary to the notion of the language game.  In one popular example §293, his thought experiment of the beetle box, a simulacrum of an internal processes labeled by the individual as a 'beetle' would not hold correspondence across individuals in the way an actual 'beetle' would.  The strongest empirical criticism arrives via [Majid et. al.](https://www.cambridge.org/core/journals/natural-language-engineering/article/uncovering-the-language-of-wine-experts/9BF0A599B49230297FD6DBA01F07C0DD) probing the diverse olfactory palette as labeled by the language of expert palates.  The evidence ostensibly contradicts Wittgenstein's analysis as olfaction precedes and supersets language.  Here more modern understanding of anatomical and evolutionary differences suggests a way out.  Olfaction is a unique sense in that it impinges directly on a singular structure, the olfactory bulb, its function tracing as old as living cells performing chemotaxis. The olfactory bulb then impinges directly on the amygdala (emotion) and hippocampus (memory) to induce the unique effect captured eloquently by Proust's madeleine. Olfaction may predate the structures of higher intelligence animated by language.
+A critical examination of Wittgenstein's ideas isolates his definition and rejection of a private language, which in his thought experiments run contrary to the notion of the language game.  In one popular example §293, his thought experiment of the beetle box, a simulacrum of an internal processes labeled by the individual as a 'beetle' would not hold correspondence across individuals in the way an actual 'beetle' would.  The strongest empirical criticism arrives via [Majid et. al.](https://www.cambridge.org/core/journals/natural-language-engineering/article/uncovering-the-language-of-wine-experts/9BF0A599B49230297FD6DBA01F07C0DD) probing the diverse olfactory palette as labeled by the language of expert palates.  The evidence ostensibly contradicts Wittgenstein's analysis as olfaction precedes and supersets language.  Here more modern understanding of anatomical and evolutionary differences suggests a way out.  Olfaction is a unique sense in that it impinges directly on a singular structure, the olfactory bulb, its function tracing as old as living cells performing chemotaxis. The olfactory bulb then impinges directly on the amygdala (emotion) and hippocampus (memory) to induce the unique effect captured eloquently by [Proust's madeleine](https://amzn.to/3E9AjFB). Olfaction may predate the structures of higher intelligence animated by language.
 
 Does the rejection of a private language match the results from AI language models? The distinction lies on a continuum of weak to strong inferences on whether the internal processes constitute the programming language, the neural network architecture, or the relation of the network parameters themselves once trained on a dataset.  Only the strongest definition of a private language in terms of parameter gradients flows shrug off easily definable aspects.  In the end, Wittgenstein's emphasis on the language game obviates the detour into semantics by focusing on results.
 
@@ -56,7 +56,7 @@ In §250, Wittgenstein asks if a dog could simulate pain, "Perhaps it is possibl
 
 
 
-<sup>1</sup> "Scientist in the Crib." Gopnik, A., et. al.
+<sup>1</sup> ["Scientist in the Crib." Gopnik, A., et. al.](https://amzn.to/3nrqrBd)
 
 <sup>2</sup> <https://pubmed.ncbi.nlm.nih.gov/17381794/>
 
@@ -66,10 +66,12 @@ NB.
 
 1. [Techcrunch first reported Wittgenstein's theory influencing Google search results by emphasizing context](https://web.archive.org/web/20140417182620/http://www.wired.com/2010/02/ff_google_algorithm/2/)
 
-2. [Additional annotations on *Philosophical Investigations*](https://www.pdfdrive.com/download.pdf?id=186579219&h=8224149cb39300735eae1b4a1bde45f6&u=cache&ext=pdf)
+2. [Additional annotations on *Philosophical Investigations*](https://amzn.to/3k6YL2w)
 
 3. [Some counterpoint](https://medium.com/the-sophist/wittgenstein-intelligence-is-never-artificial-51933315d1bd)
 
-4. 11.7.2020 – [A professional treatment of Wittgenstein's remarks applied to AI](https://books.google.com/books?id=WeGJAgAAQBAJ&printsec=frontcover&source=gbs_atb#v=onepage&q&f=false) Some arguments presented are similar to the ones here, albeit without the various simplifications for readability, and applications more towards psychology. The treatment dates to the last epoch in AI, though the epistemological arguments hold.
+4. 11.7.2020 – [A professional treatment of Wittgenstein's remarks applied to AI](https://amzn.to/3tCw6VX) Some arguments presented are similar to the ones here, albeit without the various simplifications for readability, and applications more towards psychology. The treatment dates to the last epoch in AI, though the epistemological arguments hold.
 
 5. 11.11.2020 – [Interesting work from Hinton's group on better teacher methods](http://arxiv.org/pdf/2011.03037v1.pdf)
+
+**Amazon affilate links go towards supporting the writing and attribution*
