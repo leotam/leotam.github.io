@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm Leonard.  My training is originally in mathematics and physics.  The two most beautiful things I've studied are the physics of ATP synthase and general relativity.
+I'm Leonard, Co-Founder of [amicus.ai](https://www.amicus.ai/).  My training is originally in mathematics and physics.  The two most beautiful things I've studied are the physics of ATP synthase and general relativity.
 
 <div class="p" align="center" width="100%">
     <img width="33%" src="{{ site.url }}/assets/GRdistort.gif">   
