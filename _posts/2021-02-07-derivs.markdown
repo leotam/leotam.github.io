@@ -27,3 +27,6 @@ By combing the insight of Buffett and Munger, we can evaluate the proper use of 
 <sup>1</sup> [Deriviatives and levearge to improve portfolio performance](https://www.institutionalinvestor.com/article/b150qd3fhy4cwb/using-derivatives-and-leverage-to-improve-portfolio-performance)
 
 <sup>2</sup> [For more details on financial intelligent agents](https://www.nvidia.com/en-us/gtc/topics/)
+
+*This post is independent of Amicus.ai and do not necessarily reflect it's views
+
