@@ -10,7 +10,7 @@ I'm Leonard, Co-Founder of [amicus.ai](https://www.amicus.ai/).  My training is 
     <img width="33%" src="{{ site.url }}/assets/GRdistort.gif">   
 </div>
 
-I earned my Ph.D. from Yale University using nonlinear magnetic gradient fields to exceed Nyquist sampling limits in magnetic resonance imaging ([my thesis][nlgthesis] had an interesting mix of hardware, mathematics, and physics).  
+I earned my Ph.D. from Yale University using nonlinear magnetic gradient fields to exceed Nyquist sampling limits in magnetic resonance imaging ([my thesis][nlgthesis] had an interesting mix of hardware, machine learning, and physics).  
 
 In my spare time, I enjoy SCUBA diving and cycling.  Here's a link to my [Google Scholar profile][scholar].
 
