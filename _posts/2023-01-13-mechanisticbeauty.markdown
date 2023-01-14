@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Corporate Performance and the Carbon Disclosure Project"
+title:  "The Mechanistic Beauty of 130/30 Long Borrow Hedging"
 date:   2023-01-13 22:00:00
 categories: general
 ---
