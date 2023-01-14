@@ -5,7 +5,8 @@ date:   2023-01-13 22:00:00
 categories: general
 ---
 
-[<img src={{ site.url }}/assets/Slide2.jpg>](https://www.youtube.com/watch?v=gPIYbyjGHWw)
+<!-- [<img src={{ site.url }}/assets/Slide2.jpg>](https://www.youtube.com/watch?v=gPIYbyjGHWw) -->
+<a href="https://www.youtube.com/watch?v=gPIYbyjGHWw">![title]({{ site.url }}/assets/Slide2.jpg)</a>
 
 *The Mechanistic Beauty of 130/30 Long Short Hedging - Secrets of the Hedge Fund Industry*
 
@@ -15,8 +16,8 @@ Any person accumulating wealth faces the mathematical realities of their situati
 
 Now we put on our engineering hats.  What are the variables that can change? We’re seeking a universal method to increase the rate of return.  A simplistic answer is to leverage, that is accept a higher level of risk return via financial arrangement. Leverage is the siren’s call to any financial operation, full of allure and danger.  There are at least three ways of leverage available to common investors.  1) We can borrow money, either through a loan at a bank or revolving credit, say through a credit card, 2) we can engage in derivatives which are complex financial instruments that we discuss in the linked video, 3) we can borrow securities against so-called marginable securities as an asset-backed loan and immediately lend them out to another investor, the complex arrangement known simply as short-selling, which is a borrowing and immediate lending.
 
-[<img src={{ site.url }}/assets/dervi_title.png>](https://youtu.be/UZx_zqN_964)
-
+<!-- [<img src={{ site.url }}/assets/dervi_title.png>](https://youtu.be/UZx_zqN_964) -->
+<a href="https://youtu.be/UZx_zqN_964">![title]({{ site.url }}/assets/dervi_title.png)</a>
 *Derivatives: Financial WMDs. Used by Warren Buffet and Archegos Capital!*
 
 The 130/30 long short portfolio has a long history. Carol Loomis writing for Fortune magazine in 1966 ascribed the technique to Alfred Jones, a PhD sociologist.  Warren Buffett goes on to contradict Loomis, ascribing securities borrowing to his mentor Ben Graham in the 1930’s. Buffett himself approached commercial banks early on to borrow securities.  Allegedly, the story went that they asked him which stocks he wanted to borrow. He answered, “why any that you would be willing to lend me”, which only deepens the present riddle we untie.  Why is the 130/30 long borrow posture so mechanistically perfect?
