@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Know When You Don't Know"
+date:   2023-02-27 22:00:00
+categories: general
+---
+
+<!-- [<img src={{ site.url }}/assets/Slide2.jpg>](https://www.youtube.com/watch?v=gPIYbyjGHWw) -->
+<a href="https://www.youtube.com/watch?v=esa_i7NPxc8">![title]({{ site.url }}/assets/V2rumsfeldtitle.png)</a>
+
+*Know When You Don't Know, Buffett's 2023 Letter, Rumsfeld Matrix, Black Swans*
+
+Markets are efficient. 10% of active managers outperform the market. The market is Pareto efficient. Making an investment is complicated, and worse timing the market is bad. We outline three techniques to know when we don’t know.  By catching overconfidence and estimating blind corners, we can improve our investing.
+
+The Rumsfield matrix partitions uncertainty quantification into easy chunks. Former Secretary of Defense Rumsfield intuited four quadrants – known knowns, known unknowns, unknown knowns, and unknown unknowns. He singled out the unknown unknowns, UUs for short, as the most dangerous category.  The mental framework has a connection to two business texts - first, Taleb’s Black swan events, events that occur at the edge of the probability distribution with alarming frequency. Second, Rumsfeld was undoubtedly acquainted with the Art of War, an ancient Chinese text that received wide business scrutiny. One passage of the Art of War goes, “Know your enemy and know yourself and you can fight a thousand battles without catastrophe”.  The Rumsfield matrix is practical.  It ties together two aspects of internal and external knowledge to synthesize a useful framework. For the intelligent investor, internal knowledge means a meta-appraisal of the system efficacy while external knowledge is an appraisal of the current comprehensive state of market affairs.
+
+We first tackle the external market forces.  Knowing where the market is in the cycle could be enormously useful for concentration.  In his 2023 annual letter released this week, Warren Buffett emphasizes a few investments with concentration is satisfactory for outsized gains. His methods are paraphrased as “backing up the truck” that is betting heavily when the odds are in favor. The prerequisite for betting heavily is an accurate assessment of the odds for an investment decision.  Most people and organizations devote most of their time to external assessments. These are the easiest things to discuss with investors or from an individual perspective, easiest to describe on talk shows, pundit spotlights, and dinner parties.  The downside is that it’s unlikely anybody, from the Fed, to the best executives and economists, know where the aggregate economy is going. Executives and Buffett care more narrowly about business conditions affecting a single enterprise.  For intrinsic value investors, careful diligence can uncover such conditions ahead of market discovery.
+
+The much harder prediction category is the unknown unknowns identified by Rumsfeld.  Let’s emphasize, the UU’s are the number 1 reason for catastrophe in investing.  Let’s characterize a few UU’s. 
+
+1. Fraud in a business is a UU. This is illicit activity that is hidden from investors and auditors.  
+
+2. Unknown geopolitical risks: Geopolitical events can have a major impact on investments, but it’s difficult to anticipate event trajectories.  For instance, the director of foreign policy studies at Stanford, a former ambassador to Russia who has been face to face with Putin, and in close contact with the Biden administration confesses no one knows how the Ukraine conflict will play out. 
+
+3. Unknown technological risks: Technology can disrupt markets and create new opportunities, but only disruptors on the ground floor understand the technology. The people in the actual creation of value are privy to innovations as they happen in real-time.
+
+4. Unknown regulatory risks: Regulations can change quickly and unexpectedly, creating investment risks that are difficult to anticipate. 
+
+Some of the above may seem like regular risks. What makes them a UU? The repetition is a clue. A UU must not only be a risk but also arise from an unknown source, like a rogue senator becoming a Manchurian candidate.
+
+Now can we take a quantitative approach?  With our analysis of UUs, we first understand that a degree of risk is an error bar on prediction. Then the second unknown is actually the fidelity of the error bar itself.  That is an unknown source would grow the risk, grow the error bar to an unforeseen degree. Needless to say, most investors don’t estimate their UUs because it’s difficult. It’s difficult enough to even tackle the first degree of unknowns.
+
+Now for the technical view. Most introductory courses will reveal that machine learning and AI classification approaches put out a confidence score. This is a general concept that applies as much to autonomous vehicles as it does to classification approaches.  There are two primary approaches to increasing confidence scores – Bayesian approaches including Shapley value approaches that measure marginal contributions to risk, and 2) calibrating the confidence scores themselves, meaning a second level optimization adding more data or models to refine predictions. A nice approach from MIT using a meta model is linked: https://arxiv.org/pdf/2212.07359.pdf. 
+
+We highly recommend quantitative approaches but realize it’s a stretch for some investors.  The first step is to translate the quantitative process to your thinking process. That means a principled approach to refining predictions. We turn to literature from the best practices on learning, otherwise known as the field of meta learning.  In his autobiography, the famed polymath Ben Franklin describes a chart method by listing methods to improve processes, and then spending a week specifically on each single method.  By focusing on one new skill at a time, incremental improvements can be assured.
+
+Model ensembling is another quick and widely used way to improve performance in both qualitative and quantitative decision making.  Investment committees use manual model ensembling – the leader of the committee listens to the predictions around the table and synthesizes voices into a more accurate decision.  An important tip is voices with positive predictive value and preferably uncorrelated views contribute most to improving decision making.  At Amicus, we developed our own consensus of experts investing copilot to assist with decision making. Gurus such as Peter Lynch and Phil Fischer recommend the indivdual investor use sources or detective work from their own life experience as viewpoints uncorrelated to wall street group think.
+
+We covered a few ways to tackle the unknown unknowns, from hardnosed confirmatory detective work, model ensembling via a copilot or investment committee, and meta learning approaches to improve the very uptake of information. Know when you don’t know, and you can benefit from a thousand investment decisions. 
+
+*Rumsfeld's checkered history with phantom WMDs and the Iraq War should be noted.  It's possible to become focused on UU's to the point of obsession. The comprehensive nature of our AI prevents fastidiousness from becoming obsession. Decisions should be evidenced based.
