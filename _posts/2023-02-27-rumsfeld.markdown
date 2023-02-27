@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Know When You Don't Know"
-date:   2023-02-27 22:00:00
+date:   2023-02-27 10:00:00
 categories: general
 ---
 
-<!-- [<img src={{ site.url }}/assets/Slide2.jpg>](https://www.youtube.com/watch?v=gPIYbyjGHWw) -->
 <a href="https://www.youtube.com/watch?v=esa_i7NPxc8">![title]({{ site.url }}/assets/V2rumsfeldtitle.png)</a>
 
 *Know When You Don't Know, Buffett's 2023 Letter, Rumsfeld Matrix, Black Swans*
