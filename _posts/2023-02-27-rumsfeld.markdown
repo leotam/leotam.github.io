@@ -37,4 +37,4 @@ Model ensembling is another quick and widely used way to improve performance in 
 
 We covered a few ways to tackle the unknown unknowns, from hardnosed confirmatory detective work, model ensembling via a copilot or investment committee, and meta learning approaches to improve the very uptake of information. Know when you don’t know, and you can benefit from a thousand investment decisions. 
 
-*Rumsfeld's checkered history with phantom WMDs and the Iraq War should be noted.  It's possible to become focused on UU's to the point of obsession. The comprehensive nature of our AI prevents fastidiousness from becoming obsession. Decisions should be evidenced based.
+*Rumsfeld's checkered history with phantom WMDs and the Iraq War should be noted.  It's possible to become focused on UU's to the point of obsession. The comprehensive nature of our AI prevents fastidiousness from becoming obsession. Decisions should be evidence based.
