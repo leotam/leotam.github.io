@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Benchmarking chatGPT for Investing"
+title:  "Benchmarking ChatGPT for Investing"
 date:   2023-03-30 12:00:00
 categories: general
 ---
 
 <a href="https://www.youtube.com/watch?v=VhDjViKP0b0">![title]({{ site.url }}/assets/v3supriseytthumb.png)</a>
 
-*We Benchmarked chatGPT for Investing: chatGPT vs. Our Model Ensemble*
+*We Benchmarked ChatGPT for Investing: ChatGPT vs. Our Model Ensemble*
 
-We tested OpenAI's chatGPT for investing and compared it to our deep learning model ensemble, which features 27 intrinsic value metrics and a Mixture of Experts (MoE) approach. We'll dive into the benefits of generative AI, RLHF, and share our experiment's surprising results. 
+We tested OpenAI's ChatGPT for investing and compared it to our deep learning model ensemble, which features 27 intrinsic value metrics and a Mixture of Experts (MoE) approach. We'll dive into the benefits of generative AI, RLHF, and share our experiment's surprising results. 
 
 Generative AI is changing the game for financial analysis. With its ability to understand complex patterns and generate human-like text, it can quickly provide valuable insights and predictions. Plus, it brings model explainability to a whole new level. Just the other day, we read a few Twitter threads on using GPT for investing. 
 
@@ -17,7 +17,7 @@ Generative AI is changing the game for financial analysis. With its ability to u
 
 But the real question is – how did it stack up numerically?
 
-We did a deep dive into the literature on Reinforcement Learning from Human Feedback, or RLHF for short. There's a detailed 2020 NeurIPS article Learning to Summarize from Human Feedback paper cited by the chatGPT blog post that you can't miss. While there are great videos out there explaining RLHF, we noticed that they overlook a few essential points. 
+We did a deep dive into the literature on Reinforcement Learning from Human Feedback, or RLHF for short. There's a detailed 2020 NeurIPS article Learning to Summarize from Human Feedback paper cited by the ChatGPT blog post that you can't miss. While there are great videos out there explaining RLHF, we noticed that they overlook a few essential points. 
 
 RLHF teaches a computer system, known as an agent, how to make better decisions in various situations. The main idea is to guide the agent by providing feedback on its actions, so it learns from experience and gradually improves its performance. To explain RLHF to a lay audience, we can break it down into two main components: the reward model loop and the PPO optimization.
 
@@ -49,7 +49,7 @@ What makes RLHF so powerful? By combining reinforcement learning with generative
 
 Imagine you're listening critically to speaker hanging on every single word uttered. One single wrong word can cause a total disconnect with the speaker and the message.  This is an experience all humans have listening to a speech and now RLHF has recreated it. Every word matters – that's the level of precision RLHF brings to the table. We believe it holds incredible potential with fine-grained token-by-token training.
 
-We wanted to see how chatGPT would fare against our model ensemble, so we put it to the test. We  crafted a user prompt to get chatGPT to generate financial analysis, and the results were quite impressive. Specifically we wanted the model to immediately give us a classification grade score and a confidence level from 0 to 1.  After a little bit of prompt engineering, we were able to mostly get the output to conform. We extracted the grade and confidence score using a regex. We noticed sometimes the API would be overloaded and another technical issue was the total amount of tokens for an API call was limited to 4097 tokens for the GPT-3.5 turbo model we tested against. Let us know if you want more details on the technical points or prompt, and we'd be happy to share. Here are a few of the qualitative results, outputs from one of the better GPT models.
+We wanted to see how ChatGPT would fare against our model ensemble, so we put it to the test. We  crafted a user prompt to get ChatGPT to generate financial analysis, and the results were quite impressive. Specifically we wanted the model to immediately give us a classification grade score and a confidence level from 0 to 1.  After a little bit of prompt engineering, we were able to mostly get the output to conform. We extracted the grade and confidence score using a regex. We noticed sometimes the API would be overloaded and another technical issue was the total amount of tokens for an API call was limited to 4097 tokens for the GPT-3.5 turbo model we tested against. Let us know if you want more details on the technical points or prompt, and we'd be happy to share. Here are a few of the qualitative results, outputs from one of the better GPT models.
 
 The first one is under the symbol MKTX. 
 
@@ -61,7 +61,7 @@ Grade: C. Confidence: 0.6. The company's financial filing shows mixed results ac
 However, the company's overall financial position is stable, with consistent revenue and net interest
 revenue.
 
-Those are some pretty impressive samples. How did we evaluate chatGPT? We plugged it into our evaluation framework, which uses a train/validation/test structure that's essential in machine learning. This ensures that our model performs well on unseen data and controls agaist cheating and overfitting. And we discovered that chatGPT's potential varies wildly with one critical parameter – the temperature, which affects the output randomness.
+Those are some pretty impressive samples. How did we evaluate ChatGPT? We plugged it into our evaluation framework, which uses a train/validation/test structure that's essential in machine learning. This ensures that our model performs well on unseen data and controls agaist cheating and overfitting. And we discovered that ChatGPT's potential varies wildly with one critical parameter – the temperature, which affects the output randomness.
 
 Experts in machine learning can skip the next section but it's worth reiterating. The train, validation, and test structure is a crucial approach in developing effective machine learning models. It involves splitting the dataset into three parts: training which the bulk at 80% of the dataset, validation partition at 10%, and testing at 10%. This structure is effective for three main reasons:
 
@@ -71,7 +71,7 @@ Model selection and hyperparameter tuning: The validation set allows for the com
 
 Unbiased performance estimation: The test set provides an independent assessment of the model's performance on unseen data, ensuring that the evaluation is not biased by decisions made during training and hyperparameter tuning.
 
-Our case: We have around 500 companies, meaning 450 texts for training, 50 for validation, and 50 for testing. Normally, we train the model using the 450 samples, evaluate and tune the model with the validation set, and finally, assess the model's performance using the 50-sample test set. This approach ensures the model is less likely to overfit and provides a reliable estimation of its performance on new, unseen data.  For our in-house model which is at the product level, we've optimized and frozen the model hyperparameters and use the validation set only for model selection. In our comparison, we're comparing the test set performance of our model vs GPT 3.5 turbo. And that's when we discovered that the key to unlocking chatGPT's potential lies in the temperature.
+Our case: We have around 500 companies, meaning 450 texts for training, 50 for validation, and 50 for testing. Normally, we train the model using the 450 samples, evaluate and tune the model with the validation set, and finally, assess the model's performance using the 50-sample test set. This approach ensures the model is less likely to overfit and provides a reliable estimation of its performance on new, unseen data.  For our in-house model which is at the product level, we've optimized and frozen the model hyperparameters and use the validation set only for model selection. In our comparison, we're comparing the test set performance of our model vs GPT 3.5 turbo. And that's when we discovered that the key to unlocking ChatGPT's potential lies in the temperature.
 
 The temperature appeared incredibly important for text generation.  In OpenAI's words, "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic."  For instance, when we set the temperature to less than 0.2, the ratings experienced mode collapse, where they would only issue the same rating, letter grade C, to all companies. 
 
@@ -86,16 +86,16 @@ Here is the figure summarizing the results. On the horizontal we have increasing
 
 What's not shown on the chart is our ensemble has a MCC value on the order of 0.23 which is a step function above the MCC values from GPT, at least 874% higher. Having a higher MCC value implies a much better grasp of value concepts across all types of businesses. We're linking to a video on MoE, a crucial technique we use to make sure the right tool is used for the situation. The saying goes if you only have a hammer everything looks like nail. We avoid the mode collapse group think trap.
 
-Despite not outperforming our ensemble, generative AI still has us excited chatGPT showcased amazing explainability and even generated confidence levels for its predictions. While we didn't analyze those levels, we see huge potential for future applications.
+Despite not outperforming our ensemble, generative AI still has us excited ChatGPT showcased amazing explainability and even generated confidence levels for its predictions. While we didn't analyze those levels, we see huge potential for future applications.
 
 Further, we required the model to give a short explanation of their rating. The better models had impressive thought-provoking analysis. At the very least, the AI explanations are good for brainstorming and out of the box thinking.
 
 ## Limitations & Future Prospects
 
-It's important to note that we were limited to 4097 tokens for the GPT 3.5 turbo (a close cousin of chatGPT), while our models read up to the required 200k tokens per company. We also didn't use the more advanced GPT-4, which supports longer context up to 32k tokens, but at a much higher inference cost and time. GPT has a natural user interaction, and RLHF has an even more enticing prospect.
+It's important to note that we were limited to 4097 tokens for the GPT 3.5 turbo (a close cousin of ChatGPT), while our models read up to the required 200k tokens per company. We also didn't use the more advanced GPT-4, which supports longer context up to 32k tokens, but at a much higher inference cost and time. GPT has a natural user interaction, and RLHF has an even more enticing prospect.
 
 We're all-in on the RLHF paradigm and are crafting our own dataset. Collecting a dataset for expert work is a challenge that can't be crowdsourced like OpenAI's approach to GPT4 data. The fact is even 90% of professionals underperform the market. Humans have a tough job with the difficulty of overcoming biased research and news that inundate investors. We aim to combine top level human feedback with RLHF techniques to elevate our models to unprecedented heights in the service of an unbiased, quantitative service for investors.
 
-And there you have it, our epic showdown between chatGPT and our model ensemble for investing! We hope you enjoyed this deep dive into the world of AI and finance as much as we did. Remember, generative AI and RLHF have the potential to revolutionize how we approach financial analysis and prediction, and we're motivated to see where this journey takes us.
+And there you have it, our epic showdown between ChatGPT and our model ensemble for investing! We hope you enjoyed this deep dive into the world of AI and finance as much as we did. Remember, generative AI and RLHF have the potential to revolutionize how we approach financial analysis and prediction, and we're motivated to see where this journey takes us.
 
 If you have any questions or want more information on our methods, don't hesitate to contact.
