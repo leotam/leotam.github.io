@@ -86,13 +86,13 @@ Here is the figure summarizing the results. On the horizontal we have increasing
 
 What's not shown on the chart is our ensemble has a MCC value on the order of 0.23 which is a step function above the MCC values from GPT, at least 874% higher. Having a higher MCC value implies a much better grasp of value concepts across all types of businesses. We're linking to a video on MoE, a crucial technique we use to make sure the right tool is used for the situation. The saying goes if you only have a hammer everything looks like nail. We avoid the mode collapse group think trap.
 
-Despite not outperforming our ensemble, generative AI still has us excited ChatGPT showcased amazing explainability and even generated confidence levels for its predictions. While we didn't analyze those levels, we see huge potential for future applications.
+Despite not outperforming our ensemble, generative AI still has us excited. ChatGPT showcased amazing explainability and even generated confidence levels for its predictions. While we didn't analyze those levels, we see huge potential for future applications.
 
-Further, we required the model to give a short explanation of their rating. The better models had impressive thought-provoking analysis. At the very least, the AI explanations are good for brainstorming and out of the box thinking.
+When, we required the model to give a short explanation of their rating, the better models had impressive thought-provoking analysis. At the very least, the AI explanations are good for brainstorming and out of the box thinking.
 
 ## Limitations & Future Prospects
 
-It's important to note that we were limited to 4097 tokens for the GPT 3.5 turbo (a close cousin of ChatGPT), while our models read up to the required 200k tokens per company. We also didn't use the more advanced GPT-4, which supports longer context up to 32k tokens, but at a much higher inference cost and time. GPT has a natural user interaction, and RLHF has an even more enticing prospect.
+It's important to note that we were limited to 4097 tokens for the GPT 3.5 turbo model (a close cousin of ChatGPT), while our models read up to the required 200k tokens per company. We also didn't use the more advanced GPT-4, which supports longer context up to 32k tokens, but at a much higher inference cost and time. GPT has a natural user interaction, and RLHF has an even more enticing prospect.
 
 We're all-in on the RLHF paradigm and are crafting our own dataset. Collecting a dataset for expert work is a challenge that can't be crowdsourced like OpenAI's approach to GPT4 data. The fact is even 90% of professionals underperform the market. Humans have a tough job with the difficulty of overcoming biased research and news that inundate investors. We aim to combine top level human feedback with RLHF techniques to elevate our models to unprecedented heights in the service of an unbiased, quantitative service for investors.
 
