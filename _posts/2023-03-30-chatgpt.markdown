@@ -5,7 +5,7 @@ date:   2023-03-30 12:00:00
 categories: general
 ---
 
-<a href="https://www.youtube.com/watch?v=VhDjViKP0b0">![title]({{ site.url }}/assets/v3supriseytthumb.png)</a>
+<a href="https://www.youtube.com/watch?v=0J4eYgLA_SY">![title]({{ site.url }}/assets/v3supriseytthumb.png)</a>
 
 *We Benchmarked ChatGPT for Investing: ChatGPT vs. Our Model Ensemble*
 
