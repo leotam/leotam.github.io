@@ -53,13 +53,13 @@ We wanted to see how chatGPT would fare against our model ensemble, so we put it
 
 The first one is under the symbol MKTX. 
 
-```
+![gpt]({{ site.url }}/assets/v2gpt_samples_finanalysis.png)
+
 Grade: B. Confidence: 0.8. Market Axess Holdings Inc. has a strong business model with a leading electronic trading platform in fixed-income markets. The company has consistently paid dividends and has authorized multiple share repurchase programs. However, the lack of information on intrinsic value metrics such as free cash flow yield and profit margin makes it difficult to give a higher grade.
 
 Grade: C. Confidence: 0.6. The company's financial filing shows mixed results across its segments. While the Securities Services and Market and Wealth Services segments have strong revenue and pre-tax operating margins, the Investment and Wealth Management segment has a low pre-tax operating margin. Additionally, the company's pension and healthcare benefit obligations are significant and may impact future cash flows.
 However, the company's overall financial position is stable, with consistent revenue and net interest
 revenue.
-```
 
 Those are some pretty impressive samples. How did we evaluate chatGPT? We plugged it into our evaluation framework, which uses a train/validation/test structure that's essential in machine learning. This ensures that our model performs well on unseen data and controls agaist cheating and overfitting. And we discovered that chatGPT's potential varies wildly with one critical parameter – the temperature, which affects the output randomness.
 
