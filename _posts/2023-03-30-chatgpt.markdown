@@ -26,7 +26,9 @@ RLHF teaches a computer system, known as an agent, how to make better decisions 
 The approach from Open AI uses a helper model, the reward model RM, to select between a generated output and  human text. The loop can be broken into steps like so:
 
 a. Collect data: The language model generates responses to a variety of input prompts or questions.
+
 b. Rate data: Human experts review the generated responses and human responses and rate them based on their quality, relevance, and other factors.
+
 c. Train reward model: Using the expert ratings, a reward model is trained to help the language model understand which responses are more desirable. The reward model calculates a numerical value which is the reward given to the reinforcement learning model. 
 
 ### PPO Optimization:
