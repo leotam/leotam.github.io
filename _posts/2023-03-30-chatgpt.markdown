@@ -19,7 +19,7 @@ But the real question is – how did it stack up numerically?
 
 We did a deep dive into the literature on Reinforcement Learning from Human Feedback, or RLHF for short. There's a detailed 2020 NeurIPS article Learning to Summarize from Human Feedback paper cited by the ChatGPT blog post that you can't miss. While there are great videos out there explaining RLHF, we noticed that they overlook a few essential points. 
 
-RLHF teaches a computer system, known as an agent, how to make better decisions in various situations. The main idea is to guide the agent by providing feedback on its actions, so it learns from experience and gradually improves its performance. To explain RLHF to a lay audience, we can break it down into two main components: the reward model loop and the PPO optimization.
+RLHF teaches a computer system, known as an agent, how to make better decisions in various situations. The main idea is to guide the agent by providing feedback on its actions, so it learns from experience and gradually improves its performance. To explain RLHF, we can break it down into two main components: the reward model loop and the PPO optimization.
 
 ### Reward Model Loop: 
 
