@@ -5,8 +5,6 @@ date:   2022-01-11 15:00:00
 categories: general
 ---
 
-*Work by Dominic Belcea while an intern mentored by me at Amicus.ai*
-
 # BACKGROUND 
 Cities and corporations, large and small, are reassessing their long- and short-term growth as the world seeks to combat a global pandemic. For communities to prosper and survive, there is a considerable focus on the sociological impact of climate change. The long-term perspective has made it more important than ever to look beyond and establish a sustainable future, one in which cities and corporations collaborate to assess, restore, and protect the environment. The Carbon Disclosure Project (CDP), a non-profit organization, is trying to hasten an economic transformation that benefits both people and the environment in the long run. Investors, enterprises, cities, governments, and regions can use CDP's worldwide disclosure system to manage their environmental impacts on climate change, water security, and deforestation. The disclosure system keeps track of the thousands of corporations, cities, states, and regions that submit data as part of its annual reporting process and assigns ratings to companies and localities based on their progress toward environmental leadership. To monitor and manage their risks and opportunities, the world's economy looks to CDP as the gold standard of environmental reporting, with the richest and most complete dataset on business and city action. 
 
