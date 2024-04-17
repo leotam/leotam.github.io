@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "JP Morgan AI Passes the CFA II: Boosted by Coding Skill"
+date:   2024-04-17 06:00:00
+categories: general
+---
+
+Using GPT-4 and in-context learning, JP Morgan researchers cleared the CFA I and II exams. Still, they struggled with the level II case studies, barely clearing the 60% estimated pass score. 
+
+With open-source GPT-4 level models, we added coding ability to the test-taking LLM. Adding the Python REPL pushed the AI to a new plateau.
+
+
+<img src="{{ site.url }}/assets/apr17_JPM_React.png" alt="Graph showing AI performance improvement with coding ability">
+
+
+The JPM study evaluated capabilities in financial reasoning using mock exam questions from the CFA Program. The researchers tested prompting methods, such as asking for Chain-of-Thought (CoT) and giving sample question answer pairs (few-shot FS), to examine financial problems.
+
+JPM researchers found base ChatGPT would likely not pass the CFA Level I and Level II exams. However, GPT-4 likely would pass both levels if prompted with FS and CoT methods.
+
+The researchers used pass criteria for the exams, for Level I to achieve a score of at least 60% in each topic and an overall score of at least 70% and Level II to achieve a score of at least 50% in each topic and an overall score of at least 60%.
+
+Base GPT-4 on Level II was a borderline decision. In-context learning (FS) proved particularly powerful at a 4 point boost to the niche context of the CFA.
+
+We had a new challenge. What more could be done now that GPT-4 level models are open source? 
+
+Using the open model from Cohere, we added Python access via Google's ReAct framework. ReAct interleaves reasoning traces and action plans, where reasoning enhances action planning and actions facilitate information retrieval and context updating.
+
+Google showed ReAct tops CoT and FS methods for in-context learning across question answering and fact verification.
+
+Humans are allowed the HP 12C Prestige calculator – only sporting the LLM can power up in-kind. 
+
+Adding the Python REPL via ReAct gave a 3 point boost with Python. This is even without retrieval across the CFA manuals.
+
+For the CFA exam, coding allows scenario testing through function writing and precise calculation.
+
+Our work points a way for domain AIs and maybe CFA aspirants to improve on their work – by learning to code. 
+
+*[1] Callanan, Ethan, et al. "Can GPT models be financial analysts? an evaluation of chatGPT and GPT-4 on mock CFA exams." arXiv preprint arXiv:2310.08678 (2023).*
+
+Waitlist for the next product release: https://forms.gle/njJdbJ7wANgn4U9F8
