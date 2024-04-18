@@ -37,4 +37,6 @@ Our work points a way for domain AIs and maybe CFA aspirants to improve on their
 
 *[1] Callanan, Ethan, et al. "Can GPT models be financial analysts? an evaluation of chatGPT and GPT-4 on mock CFA exams." arXiv preprint arXiv:2310.08678 (2023).*
 
-Waitlist for the next product release: https://forms.gle/njJdbJ7wANgn4U9F8
+
+
+Waitlist for the next product release: [https://forms.gle/njJdbJ7wANgn4U9F8](https://forms.gle/njJdbJ7wANgn4U9F8)
