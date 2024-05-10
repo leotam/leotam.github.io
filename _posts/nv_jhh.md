@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "The Secrets of Nvidia CEO Jensen Huang's Unconventional Management Style"
+date:   2024-05-10 08:00:00
+categories: general
+---
+
+Let me tell you a quick story about working at Nvidia. You walk into a meeting room at Nvidia's headquarters, where a group of engineers and top executives are gathered. Suddenly, the door swings open, and in walks the visionary leader himself, Jensen Huang. The room falls silent as he strolls to the whiteboard. This is a chance to witness firsthand the management style that has propelled Nvidia to astronomical success.
+
+>"I give you feedback, right there, in front of everybody... I'd rather torture you into greatness."
+>	-- Jensen Huang, Nvidia CEO and Co-Founder
+
+One of the most striking and reported aspect of Jensen's leadership is his astonishing 60+ direct reports. This unorthodox approach has raised eyebrows in the business world, with many wondering how he manages to effectively lead such a large team. Patrick Collison, the Co-Founder of Stripe, recently delved into this topic during a thought-provoking interview with Jensen at the Stripe Sessions 2024 conference.
+
+Jensen's passion for driving his team to greatness is palpable. "I give you feedback, right there, in front of everybody," he declares with conviction. "I'd rather torture you into greatness" he said at Stripe Sessions 2024. These words may seem harsh, but they reveal a leader who is unafraid to push his team to their limits, knowing that true growth often comes from discomfort.
+
+!({{ site.url }}/assets/nvequity.png)
+*Equity rewards coming from the top*
+
+Having witnessed Jensen's leadership style firsthand, I can attest to its effectiveness. His hands-on approach and willingness to reach deep into the organization to recognize and reward top performers, regardless of their position in the hierarchy, fosters a culture of excellence. The executives who have worked closely with Jensen leave his circle with an unshakable sense of humility and a data-driven mindset that permeates their work.
+
+!({{ site.url }}/assets/nvcagr.png)
+*10 year CAGR at Nvidia Corp, split-adjusted*
+
+The results speak for themselves. Under Jensen's guidance, Nvidia has achieved a staggering 10-year compound annual growth rate (CAGR) of 70.82%. This success is a testament to his unwavering vision and the organizational genius he has cultivated over his 33-year tenure. It's a story of a leader who dares to challenge convention, who embraces the power of direct feedback, and who relentlessly pursues greatness, no matter the cost.
+
+Jensen's approach is not for the faint of heart. It requires a level of courage, conviction, and trust that few leaders possess. Your reports must fear and love you. And Jensen is loved – even when he busted out the company's valuation to 1/3 of the then all-time high from 2021 to 2022 (crypto bust), the rank-and-file cheered and applauded him off the stage at the 2022 all-hands (it did help on a basis-level, we were all way up due to sharp earlier rises). For those who are willing to embrace the discomfort and push themselves to their limits, the rewards are immeasurable. Jensen's example serves as a powerful reminder that true greatness often lies beyond the bounds of convention.
+
+https://www.wsj.com/business/nvidia-jensen-huang-ceo-ai-chips-89d305de
+https://stripe.com/sessions/2024/a-conversation-with-nvidias-jensen-huang
