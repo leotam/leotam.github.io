@@ -9,7 +9,7 @@ Let me tell you a quick story about working at Nvidia. You walk into a meeting r
 
 Suddenly, the door swings open, and in walks the visionary leader himself, Jensen Huang. The room falls silent as he strolls to the whiteboard. 
 
-This is a chance to witness firsthand the management style that has propelled Nvidia to astronomical success.
+He diagrams the CUDA-X stack that is the company's destiny. You witness firsthand the management style that has propelled Nvidia to astronomical success.
 
 >"I give you feedback, right there, in front of everybody... I'd rather torture you into greatness."
 >	-- Jensen Huang, Nvidia CEO and Co-Founder
