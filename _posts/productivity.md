@@ -5,7 +5,7 @@ date:   2024-11-11 08:00:00
 categories: general
 ---
 
-When was the last time you got a raise at the cost of inflation?
+When was the last time you gave or got a raise at the cost of inflation?
 
 Fed Chair Powell expressed surprise at the continuing strength of domestic productivity at last Thursday's rate cut presser.
 
