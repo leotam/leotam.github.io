@@ -28,7 +28,7 @@ Generative AI bridges the gap, meaning less time for white-collar tasks.
 
 Higher productivity means that wages can increase.
 
-!({{ site.url }}/assets/prod.png)
+![prod]({{ site.url }}/assets/prod.png)
 
 Again from Acemoglu and Johnson, "as a result of the broadly balanced investments in automation and new tasks in the 1950s and 1960s... labor share of income in manufacturing remained broadly constant, hovering close to 80 percent between 1950 and the early 1980s".
 
