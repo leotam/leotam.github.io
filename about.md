@@ -10,6 +10,8 @@ I'm Leo, Head of Engineering at [amicus.ai](https://www.amicus.ai/).  My trainin
     <img width="33%" src="{{ site.url }}/assets/GRdistort.gif">   
 </div>
 
+This blog is mostly senescent. You can find more posts here: [https://amicusai.substack.com/](https://amicusai.substack.com/).
+
 I earned my Ph.D. from Yale University using nonlinear magnetic gradient fields to exceed Nyquist sampling limits in magnetic resonance imaging ([my thesis][nlgthesis] had an interesting mix of hardware, machine learning, and physics).  
 
 In my spare time, I enjoy SCUBA diving and cycling.  Here's a link to my [Google Scholar profile][scholar].
